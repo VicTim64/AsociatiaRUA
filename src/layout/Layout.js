@@ -28,23 +28,23 @@ const Layout = ({ children, pageName, hideHeader }) => {
     <Fragment>
       <Head>
         <meta name="google-site-verification" content="vfDp6LRtz-bAvSxysH7dh0Y7UpgFPXMfLPutdJCLv9I" />
-        <title>{`TWS | ${pageName}`}</title>
+        <title>{`RUA | ${pageName}`}</title>
 
         {/* Open Graph Meta Tags for Social Sharing */}
-        <meta property="og:title" content={`TWS | ${pageName}`} />
-        <meta property="og:description" content="Transylvania Web3 Summit" />
+        <meta property="og:title" content={`RUA | ${pageName}`} />
+        <meta property="og:description" content="Asociatia RUA" />
         <meta property="og:image" content="/img/main.png" />
         <meta property="og:url" content="https://transylvaniasummit.com" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags for Social Sharing */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`TWS | ${pageName}`} />
-        <meta name="twitter:description" content="Transylvania Web3 Summit" />
+        <meta name="twitter:title" content={`RUA | ${pageName}`} />
+        <meta name="twitter:description" content="Asociatia RUA" />
         <meta name="twitter:image" content="/img/main.png" />
 
         {/* Fallback for older platforms */}
-        <meta name="description" content="Transylvania Web3 Summit" />
+        <meta name="description" content="Asociatia RUA" />
       </Head>
 
       <VideoPopup />
