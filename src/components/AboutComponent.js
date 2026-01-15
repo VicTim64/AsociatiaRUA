@@ -11,21 +11,19 @@ const AboutComponent = () => {
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Welcome To Transylvania</h3>
+              <h3 className="fn_title">Împreună pentru comunități mai puternice</h3>
               {/* <div className="line">
                 <span />
               </div> */}
             </div>
             <div className="desc">
               <p>
-          The Transylvania Summit is a premier private networking event dedicated to fostering dialogue, collaboration, and investment within the Web3 ecosystem. Scheduled for May 29-30, 2025, at the EMERALD LUXURY EVENTS in Târgu Mureș, Romania, this exclusive gathering brings together investors, diplomats, entrepreneurs, and business leaders from around the globe.
+          La RUA Mureș credem că nicio familie sau persoană vulnerabilă nu ar trebui să se simtă singură. În județul nostru, provocările sociale se suprapun: sărăcia, lipsa accesului la educație și la servicii medicale afectează pe toată lumea din comunitate. De aceea, intervenim acolo unde nevoia este cea mai mare și construim o rețea de sprijin care să ajungă la fiecare colț al comunității.
   </p>
   <p>
-          Building on the success of its inaugural edition, which attracted over 120 distinguished guests from countries including the United States, Belgium, Switzerland, Germany, Jordan, Brazil, Spain, and Monaco, the summit continues to highlight the investment potential and innovation inherent in the region.
-              </p>
+         Misiunea noastră este clară: identificăm și susținem persoanele vulnerabile, creștem accesul la educație și sănătate, și activăm comunitățile prin voluntariat și responsabilizare. Fiecare acțiune pe care o întreprindem are un impact direct și real, iar împreună putem transforma destine.</p>
   <p>
-The summit's agenda includes conference panels, networking sessions, and festive dinners with wine tastings, providing ample opportunities for attendees to connect and explore collaboration prospects.
-By uniting global stakeholders in the heart of Transylvania, the summit aims to catalyze investment initiatives and drive blockchain innovation in Eastern Europe.
+         Credem că solidaritatea nu este un lux, ci o nevoie fundamentală. Prin parteneriate cu autorități, ONG-uri și mediul privat, ne asigurăm că fiecare inițiativă este eficientă și durabilă, iar beneficiile ajung exact acolo unde sunt necesare.
   </p>
             </div>
           </div>
@@ -38,24 +36,18 @@ By uniting global stakeholders in the heart of Transylvania, the summit aims to 
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Venue Place</h3>
+              <h3 className="fn_title">Sprijin concret, acțiuni integrate</h3>
             </div>
             <div className="desc">
               <p>
-              Nestled in a serene corner of Târgu Mureș yet just
-minutes from the city center, EMERALD LUXURY EVENTS offers the
-perfect blend of tranquility and convenience. Ideal for
-both brief getaways and extended stays, this historic
-venue promises an unforgettable experience for
-business or leisure travelers.
+              RUA Mureș intervine prin programe și activități menite să răspundă nevoilor urgente ale comunităților vulnerabile. Ne concentrăm pe educație, sănătate și suport social, dar și pe condiții minime de trai: locuință, igienă și utilități de bază. Fiecare inițiativă este gândită pentru a crea rezultate tangibile și pentru a ajuta oamenii să își recâștige încrederea și speranța.
               </p>
                   <p>
-                   Located only 1.5 km from
-downtown and 0.5 km from Târgu Mureș Train Station.
-EMERALD LUXURY EVENTS sets the stage for the Transylvania Web3
-Summit, providing a modern, comfortable environment
-that elevates every event to new heights.
+                   Acțiunile noastre sunt adaptate nevoilor locale. Prin colaborarea cu lideri comunitari, cadre didactice și asistenți sociali, identificăm problemele devreme și intervenim rapid, înainte ca situațiile să se agraveze.
                   </p>
+          <p>
+RUA Mureș crede în construirea unei rețele locale de sprijin, flexibilă și replicabilă, care să devină un punct de referință pentru comunitate și să inspire alte inițiative similare.
+          </p>
                  
              
       
@@ -70,23 +62,17 @@ that elevates every event to new heights.
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Who Will You Reach at Transylvania Web3 Summit?</h3>
+              <h3 className="fn_title">Fii parte din schimbare</h3>
             </div>
             <div className="desc">
               <p>
-              Demographics: Professionals aged 25-45 including developers,
-entrepreneurs, investors, and crypto enthusiasts
+             Voluntariatul este inima RUA Mureș. Fiecare persoană care se implică devine un pilon de sprijin pentru cei aflați în dificultate. Poți contribui prin sesiuni educaționale, activități sociale, sprijin direct pentru familii sau prin organizarea de evenimente care să unească comunitatea.
               </p>
                <p>
-                  Geographic Distribution: Predominantly Eastern European, with international
-Web3 professionals from 10+ countries.
+                  Implicarea voluntarilor nu doar ajută, ci și inspiră. Prin efortul colectiv, construim o rețea locală puternică, capabilă să identifice problemele devreme și să răspundă rapid. Orice gest de ajutor devine o punte între oameni și transformă viața celor care au cea mai mare nevoie.
                     </p>
-  <p> Key Atendee Groups: Crypto enthusiasts, blockchain developers, investors,
-enterprises, and policymakers. </p>
-  <p>
-  Engagement Opportunities: Direct access to decision-makers, influencers, and
-early adopters in the crypto space.
-  </p>
+  <p> Te invităm să te alături inițiativelor noastre. Fiecare oră dedicată, fiecare zâmbet oferit și fiecare resursă pusă la dispoziție contribuie la construirea unei comunități mai sigure, mai unite și mai empatică. Împreună putem face diferența! </p>
+
             </div>
           </div>
         </div>
