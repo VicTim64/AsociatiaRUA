@@ -163,7 +163,7 @@ const Index = () => {
                       <br /> style={{ fontSize: "28px" }}
                      */}
                   </h2>
-                 <p className="fn_desc fn_animated_text">
+                 <p className="fn_desc ">
   #AlegeSăNuFiSingur #ÎnSlujbaBinelui
 </p>
 
