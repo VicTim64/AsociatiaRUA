@@ -164,7 +164,7 @@ const Index = () => {
                      */}
                   </h2>
                  <p className="fn_desc fn_animated_text">
-  <span>&#35;</span>AlegeSăNuFiSingur <span>&#35;</span>ÎnSlujbaBinelui
+  &#35;AlegeSăNuFiSingur &#35;ÎnSlujbaBinelui
 </p>
 
  <br />
