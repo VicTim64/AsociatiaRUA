@@ -163,8 +163,8 @@ const Index = () => {
                       <br /> style={{ fontSize: "28px" }}
                      */}
                   </h2>
-                 <p className="fn_desc ">
-  #AlegeSăNuFiSingur #ÎnSlujbaBinelui
+                 <p className="fn_desc fn_animated_text">
+  Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș.
 </p>
 
  <br />
@@ -172,7 +172,7 @@ const Index = () => {
                        
                     
                   
-                  <p><b> Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș. </b> <br /></p>
+                  <p><b>  #AlegeSăNuFiSingur #ÎnSlujbaBinelui </b> <br /></p>
 
                   <div className="home_logo">
                     <div style={wrapperStyle}>
