@@ -163,7 +163,7 @@ const Index = () => {
                       <br /> style={{ fontSize: "28px" }}
                      */}
                   </h2>
-                 <p className="fn_desc fn_animated_text">
+                 <p className="fn_desc ">
   Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș.
 </p>
 
