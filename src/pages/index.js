@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
-import AboutComponent from "@components/AboutComponent";
+//import AboutComponent from "@components/AboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
 // import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
