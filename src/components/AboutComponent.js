@@ -11,7 +11,7 @@ const AboutComponent = () => {
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Împreună pentru comunități mai puternice</h3>
+              <h3 className="fn_title">Împreună pentru comunități</h3>
               {/* <div className="line">
                 <span />
               </div> */}
@@ -36,7 +36,7 @@ const AboutComponent = () => {
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Sprijin concret, acțiuni integrate</h3>
+              <h3 className="fn_title">Sprijin și acțiuni</h3>
             </div>
             <div className="desc">
               <p>
@@ -62,7 +62,7 @@ RUA Mureș crede în construirea unei rețele locale de sprijin, flexibilă și 
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Fii parte din schimbare</h3>
+              <h3 className="fn_title">Parte din schimbare</h3>
             </div>
             <div className="desc">
               <p>
