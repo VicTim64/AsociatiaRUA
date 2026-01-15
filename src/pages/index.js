@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
 import AboutComponent from "@components/AboutComponent";
-import ServicesComponent from "@components/ServicesComponent";
-import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
-import RoadmapComponent from "@/components/RoadmapComponent";
-import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
-import Sponsors from "@components/Sponsors";
+// import ServicesComponent from "@components/ServicesComponent";
+// import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
+// import RoadmapComponent from "@/components/RoadmapComponent";
+// import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
+// import Sponsors from "@components/Sponsors";
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -16,16 +16,16 @@ const Index = () => {
   const timerRef = useRef(null);
 
   const categories = {
-    Opportunities: 
-      "Transylvania Summit serves as a global networking event for facilitating dialogue, fostering collaboration, and catalyzing investment initiatives in the Web3 Ecosystem.",
-    "Growing Market":
-      "Gain visibility in the rapidly expanding crypto and blockchain community of Eastern Europe, an untapped region with immense potential for Web3 adoption.",
-    Exposure:
-      "Feature your logo and messaging across event materials, websites, and sessions to reach a highly engaged audience of developers, investors, and innovators.",
-    Networking:
-      "Meet high-profile speakers, investors, regional tech leaders, and early adopters, fostering valuable connections and potential business partnerships.",
-    Engagement:
-      "Interact with decision-makers and influencers in the Web3 space, including tech leaders, early adopters, and industry experts.",
+    Prevenție: 
+      "Identificarea și monitorizarea timpurie a familiilor și persoanelor vulnerabile",
+    "Acces":
+      "Creșterea accesului la servicii esențiale",
+    Educație:
+      "Reducerea abandonului școlar și creșterea participării educaționale",
+    Trai:
+      "Îmbunătățirea condițiilor minime de trai",
+    Comunitate:
+      "Activarea comunităților prin voluntariat și responsabilizare",
   };
 
   useEffect(() => {
@@ -156,7 +156,7 @@ const Index = () => {
               <div className="container">
                 <div className="content">
                   <h2 className="fn_title"  >
-                    Transylvania <span className="blueColor">Web3 </span> Summit
+                    RUA <span className="blueColor">Mureș </span>
 {/*    <br />
                     <br />
                   <br /> style={{ fontSize: "46px" }}
@@ -164,14 +164,14 @@ const Index = () => {
                      */}
                   </h2>
                   <p className="fn_desc fn_animated_text" >
-                    Unlocking Eastern Europe's Blockchain Potential
+                    #AlegeSăNuFiSingur #ÎnSlujbaBinelui
                   </p>
  <br />
                   
                        
                     
                   
-                  <p><b> 29 - 30 May 2025 </b> <br /></p>
+                  <p><b> Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș. </b> <br /></p>
 
                   <div className="home_logo">
                     <div style={wrapperStyle}>
@@ -207,11 +207,11 @@ const Index = () => {
 
           {/* Sections */}
           {/* <RoadmapComponent />*/}
-          <AboutComponent />
-          <ServicesComponent isLoading={isLoading} />
-          <Sponsors />
-          <WhyChooseUsComponent />
-          <JoinNeoTechArmy />
+         // <AboutComponent />
+         // <ServicesComponent isLoading={isLoading} />
+         // <Sponsors />
+         // <WhyChooseUsComponent />
+         // <JoinNeoTechArmy />
         </>
       )}
       <style jsx>{`
