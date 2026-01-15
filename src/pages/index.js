@@ -125,7 +125,7 @@ const Index = () => {
   };
 
   return (
-    <Layout pageName={"Home"}>
+    <Layout pageName={"Acasă"}>
       {/* Loading Screen */}
       {isLoading ? (
         <div
