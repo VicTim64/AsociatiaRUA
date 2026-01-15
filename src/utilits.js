@@ -1,7 +1,7 @@
 export const animationText = () => {
   const fn_animated_text = document.querySelectorAll(".fn_animated_text");
   fn_animated_text.forEach((text) => {
-    let letters = text.innerHTML.split(""),
+    let letters = [...text.textContent],
       time = text.getAttribute("wait"),
       speed = text.getAttribute("speed");
     if (!time) {
