@@ -156,7 +156,7 @@ const Index = () => {
               <div className="container">
                 <div className="content">
                   <h2 className="fn_title"  >
-                    RUA <span className="blueColor">Mureș </span>
+                    Asociația <span className="blueColor">R</span><span className="yellowColor">U </span><span className="redColor">A</span>
 {/*    <br />
                     <br />
                   <br /> style={{ fontSize: "46px" }}
