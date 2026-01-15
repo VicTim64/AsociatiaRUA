@@ -207,11 +207,11 @@ const Index = () => {
 
           {/* Sections */}
           {/* <RoadmapComponent />*/}
-         // <AboutComponent />
-         // <ServicesComponent isLoading={isLoading} />
-         // <Sponsors />
-         // <WhyChooseUsComponent />
-         // <JoinNeoTechArmy />
+         {/*<AboutComponent /> */}
+         {/* <ServicesComponent isLoading={isLoading} /> */}
+         {/* <Sponsors /> */}
+         {/* <WhyChooseUsComponent /> */}
+         {/* <JoinNeoTechArmy /> */}
         </>
       )}
       <style jsx>{`
