@@ -5281,7 +5281,13 @@ a.full_link {
   } */
 }
 .blueColor {
-  color: #1472ff;
+  color: #0000FF;
+}
+.yellowColor {
+  color: #FFFF00;
+}
+.redColor {
+  color: #FF0000;
 }
 .originTextColor {
   color: #858585;
