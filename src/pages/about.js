@@ -136,4 +136,4 @@ import { useCallback } from "react";
   );
 };
 
-export default About;
+export default DespreNoi;
