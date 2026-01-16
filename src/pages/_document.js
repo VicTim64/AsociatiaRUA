@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* ✅ Mailchimp Site Connection Script */}
+        {/* ✅ Mailchimp Site Connection Script — TEMPORAR DEZACTIVAT */}
+        {/*
         <script
           id="mcjs"
           dangerouslySetInnerHTML={{
@@ -17,6 +18,7 @@ export default function Document() {
             `,
           }}
         />
+        */}
       </Head>
       <body>
         <Main />
