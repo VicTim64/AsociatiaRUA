@@ -80,7 +80,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com">
+                  <a href="https://www.facebook.com/rua.romania">
                     <img src="/img/menu/menu_facebook.png" />
                   </a>
                 </li>
