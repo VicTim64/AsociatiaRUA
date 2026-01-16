@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import TeamInfor from "@/data/team_infor.json";
 import TeamAdvisor from '@/data/team_advisor.json';
 
-const Team = () => {
+const Voluntari = () => {
   return (
     <Layout pageName={"Voluntari"}>
       <PageBanner pageName={"Voluntari"} imageURL={"img/hero/head_about_background.png"}/>
