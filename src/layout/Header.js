@@ -127,7 +127,7 @@ const Header = () => {
                <img
                 src="/img/menu/logo.png"
                 alt="Logo"
-                width="auto"
+                width="150"
                 height="30"
          style={{
                 objectFit: "contain",
