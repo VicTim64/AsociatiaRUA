@@ -45,7 +45,119 @@
             "instagram": "",
             "linkedin": ""
         }
+    },
+                {
+        "avatar": "vol1.png",
+        "name": "Moldovan Laurențiu",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol2.png",
+        "name": "Moldovan Paul-Ștefan",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol3.png",
+        "name": "Maxim Mădălina",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol4.png",
+        "name": "",
+        "position": "Leonte Alexia",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol5.png",
+        "name": "Major Diana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol6.png",
+        "name": "Lazăr Ștefana-Maria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                {
+        "avatar": "vol7.png",
+        "name": "Iftime Mihai",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol8.png",
+        "name": "Dămătăr Michele-Gabriel",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol9.png",
+        "name": "Balahura Daria",
+        "position": "",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+                   {
+        "avatar": "vol10.png",
+        "name": "",
+        "position": "Ureche Maria-Cristina",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
     }
+        
+        
    
  
 ]
