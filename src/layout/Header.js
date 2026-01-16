@@ -11,6 +11,7 @@ const Header = () => {
         className={`nav_overlay ${toggle ? "go" : ""}`}
         onClick={() => setToggle(false)}
       />
+
       <div className={`neoh_fn_nav ${toggle ? "go" : ""}`}>
         <div
           className="trigger is-active"
@@ -20,6 +21,7 @@ const Header = () => {
             justifyContent: "space-between",
           }}
         >
+          {/* Close Button */}
           <div className="trigger_in" onClick={() => setToggle(false)}>
             <img src="/img/menu/close_button.png" alt="closeButton" />
           </div>
@@ -32,11 +34,39 @@ const Header = () => {
                 <a style={linkStyle}>Despre Noi</a>
               </Link>
             </li>
+
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/voluntari">
                 <a style={linkStyle}>Voluntari</a>
               </Link>
             </li>
+
+            {/*
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <Link legacyBehavior href="/dayone">
+                <a style={linkStyle}>Day One Panel</a>
+              </Link>
+            </li>
+
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <Link legacyBehavior href="/daytwo">
+                <a style={linkStyle}>Day Two Panel</a>
+              </Link>
+            </li>
+
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <a href="/TwsBrochure.pdf" target="_blank" style={linkStyle}>
+                Brochure
+              </a>
+            </li>
+
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <a href="/PastSpeakers.pdf" target="_blank" style={linkStyle}>
+                Past Speakers
+              </a>
+            </li>
+            */}
+
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/contact">
                 <a style={linkStyle}>Contact</a>
@@ -52,6 +82,7 @@ const Header = () => {
               Copyright {new Date().getFullYear()} rua.ro
             </p>
           </div>
+
           <div className="nf_right">
             <div className="neoh_fn_social_list">
               <ul>
@@ -93,16 +124,7 @@ const Header = () => {
           <div className="logo">
             <Link legacyBehavior href="/">
               <a>
-                <img
-                  src="/img/menu/logo.png"
-                  alt="Logo"
-                  style={{
-                    width: "180px",
-                    height: "50px",
-                    maxWidth: "100%",
-                    objectFit: "contain",
-                  }}
-                />
+                <img src="/img/menu/logo.png" alt="Logo" />
               </a>
             </Link>
           </div>
@@ -122,17 +144,22 @@ const Header = () => {
         </div>
       </header>
 
-      {/* CSS */}
+      {/* CSS for Animation */}
       <style jsx>{`
-        .logo img {
-          width: 180px;
-          height: auto;
+        @keyframes gradient-wave {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
         }
 
-        @media (max-width: 768px) {
-          .logo img {
-            width: 140px;
-          }
+        .neoh_fn_header div[style*="animation"] {
+          background-size: 200% 200%;
         }
 
         .nav_content ul li a {
@@ -144,6 +171,14 @@ const Header = () => {
 
         .nav_content ul li a:hover {
           color: #00bfff !important;
+        }
+
+        @media screen and (max-width: 768px) {
+          .neoh_fn_header div[style*="position: absolute"] {
+            width: 95%;
+            max-width: 300px;
+            font-size: 16px;
+          }
         }
       `}</style>
     </Fragment>
@@ -157,4 +192,3 @@ const linkStyle = {
 };
 
 export default Header;
-
