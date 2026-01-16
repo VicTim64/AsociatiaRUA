@@ -8,8 +8,8 @@ import TeamAdvisor from '@/data/team_advisor.json';
 
 const Team = () => {
   return (
-    <Layout pageName={"Speakers"}>
-      <PageBanner pageName={"Speakers"} imageURL={"img/hero/head_about_background.png"}/>
+    <Layout pageName={"Echipa"}>
+      <PageBanner pageName={"Echipa"} imageURL={"img/hero/head_about_background.png"}/>
       <div className="neoh_fn_teampage">
         <section id="team">
           <div className="container">
@@ -132,5 +132,5 @@ experts.
   );
 };
 
-export default Team;
+export default Echipa;
 
