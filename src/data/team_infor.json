@@ -37,7 +37,7 @@
     {
         "avatar": "team2.png",
         "name": "Melinda Chiruță",
-        "position": "Șef Departament Asistență Socială Vârstnici",
+        "position": "Șef Dep. Asistență Socială Vârstnici",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -48,7 +48,7 @@
         {
         "avatar": "team3.png",
         "name": "Cătălin Pop",
-        "position": "Șef Departament Asistență Socială Copii",
+        "position": "Șef Dep. Asistență Socială Copii",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -59,7 +59,7 @@
         {
         "avatar": "team4.png",
         "name": "Adrienn Novák",
-        "position": "Șef Departament Logistică",
+        "position": "Șef Dep. Logistică",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -82,7 +82,7 @@
            {
         "avatar": "team7.png",
         "name": "Marius Popescu",
-        "position": "Șef Departament Marketing",
+        "position": "Șef Dep. Marketing",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -93,7 +93,7 @@
            {
         "avatar": "team8.png",
         "name": "Vlad Olăreanu",
-        "position": "Șef Departament IT",
+        "position": "Șef Dep. IT",
         "social": {
             "twitter": "",
             "facebook": "",
