@@ -2,7 +2,7 @@
         { 
         "avatar": "team1.png",
         "name": "Doru Borsan",
-        "position": "",
+        "position": "Președinte",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -16,7 +16,7 @@
     {
         "avatar": "team2.png",
         "name": "Melinda Chiruță",
-        "position": "",
+        "position": "Coordonator cazuri sociale",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -26,8 +26,8 @@
     },
         {
         "avatar": "team3.png",
-        "name": "Cata",
-        "position": "",
+        "name": "Cătălin Pop",
+        "position": "Coordonator cazuri sociale",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -37,8 +37,8 @@
     },
         {
         "avatar": "team4.png",
-        "name": "secretara",
-        "position": "",
+        "name": "Adrienn Novák",
+        "position": "Șef Departament Logistică",
         "social": {
             "twitter": "",
             "facebook": "",
