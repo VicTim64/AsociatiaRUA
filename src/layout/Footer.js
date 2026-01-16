@@ -11,10 +11,10 @@ const Footer = () => {
                 {/* <div className="img">
                   <img src="/img/footer-logo.png" alt="" />
                 </div> */}
-                <p className="fn_title">
-    {/* Don’t miss out on our updates!<br/> Subscribe to our newsletter. */}
+               {/* <p className="fn_title">
+    {/* Don’t miss out on our updates!<br/> Subscribe to our newsletter. 
                  Looking forward to see you in the heart of Transylvania!
-                </p>
+                </p> */}
                 {/* <p className="fn_desc">
                   Morbi non dignissim erat, a blandit felis nec lorem vel orci
                   varius congue ut vitae est. Nam quis tempus nisl. Fusce
@@ -84,13 +84,13 @@ const Footer = () => {
 
 
 
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-100px'  }}>
-          <p>
+       {/* <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-100px'  }}>
+         <p>
             <a href='https://neotechai.com'>
               <img src='/img/poweredby.png' target="_blank" alt='NeoTechAi' width='800px' />
             </a>
-          </p>
-        </div> 
+          </p> 
+        </div> */}
         {/* !Footer Top */}
         {/* Footer Bottom */}
         <div className="footer_bottom">
@@ -98,10 +98,10 @@ const Footer = () => {
             <div className="fb_in">
              
               <a className="originTextColor" href="/team">
-                Speakers
+                Despre Noi
               </a>
-             <a className="originTextColor" href="/public/TwsBrochure.pdf" download="TwsBrochure.pdf">
-                Brochure
+             <a className="originTextColor" href="/speakers">
+                Voluntari
               </a>
             
               <a className="originTextColor" href="/contact">
