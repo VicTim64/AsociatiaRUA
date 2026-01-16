@@ -34,7 +34,7 @@ const Layout = ({ children, pageName, hideHeader }) => {
         <meta property="og:title" content={`RUA | ${pageName}`} />
         <meta property="og:description" content="Asociatia RUA" />
         <meta property="og:image" content="/img/main.png" />
-        <meta property="og:url" content="https://transylvaniasummit.com" />
+        <meta property="og:url" content="https://asociatiarua.com" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags for Social Sharing */}
