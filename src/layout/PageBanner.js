@@ -27,7 +27,7 @@ const PageBanner = ({ pageName, otherName, imageURL }) => {
           </h3>
           <p className="fn_desc">
             <Link legacyBehavior href="/">
-              <a>Home</a>
+              <a>Acasă</a>
             </Link>
             <span className="separator">/</span>
             <span className="current">{otherName?otherName:pageName}</span>
