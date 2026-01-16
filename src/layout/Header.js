@@ -29,15 +29,15 @@ const Header = () => {
           <ul style={{ padding: "20px 0" }}>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/about">
-                <a style={linkStyle}>About</a>
+                <a style={linkStyle}>Despre Noi</a>
               </Link>
             </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/speakers">
-                <a style={linkStyle}>Speakers</a>
+                <a style={linkStyle}>Voluntari</a>
               </Link>
             </li>
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
+          {/*   <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/dayone">
                 <a style={linkStyle}>Day One Panel</a>
               </Link>
@@ -56,7 +56,7 @@ const Header = () => {
               <a href="/PastSpeakers.pdf" target="_blank" style={linkStyle}>
                 Past Speakers
               </a>
-            </li>
+            </li>*/}
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/contact">
                 <a style={linkStyle}>Contact</a>
@@ -68,24 +68,24 @@ const Header = () => {
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
             <p style={{ color: "#fff" }}>
-              Copyright {new Date().getFullYear()} Transylvania Summit
+              Copyright {new Date().getFullYear()} rua.ro
             </p>
           </div>
           <div className="nf_right">
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
-                  <a href="https://www.linkedin.com/in/transylvania-web3-summit-864689362">
+                  <a href="https://www.linkedin.com">
                     <img src="/img/menu/menu_linkedin.png" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=61574956267004">
+                  <a href="https://www.facebook.com">
                     <img src="/img/menu/menu_facebook.png" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/transylvaniaw3s">
+                  <a href="https://x.com">
                     <img src="/img/menu/menu_twitter.png" />
                   </a>
                 </li>
@@ -108,7 +108,7 @@ const Header = () => {
             position: "relative",
           }}
         >
-          {/* Animated Gradient Box */}
+          {/* Animated Gradient Box 
           <div
             style={{
               position: "absolute",
@@ -140,7 +140,7 @@ const Header = () => {
             >
               Day Two Panel
             </a>
-          </div>
+          </div> */}
 
           {/* Logo */}
           <div className="logo">
