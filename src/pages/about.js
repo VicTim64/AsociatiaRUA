@@ -4,20 +4,20 @@ import TeamInfor from "@/data/team_infor.json";
 import Link from "next/link";
 import { useCallback } from "react";
 
-const About = () => {
+{/* const About = () => {
   const handleVideoClick = useCallback((event) => {
     event.preventDefault();
     window.open("https://www.youtube.com/watch?v=ielcYX0fRfg", "_blank");
-  }, []);
+  }, []); */}
 
   return (
-    <Layout pageName={"About"}>
+    <Layout pageName={"DespreNoi"}>
       <PageBanner
-        pageName={"About"}
+        pageName={"DespreNoi"}
         imageURL={"img/hero/head_about_background.png"}
       />
       <div className="neoh_fn_aboutpage">
-        {/* Information Section */}
+        {/* Information Section 
         <section id="information">
           <div className="container">
             <p className="fn_desc fn_animated_text">
@@ -28,9 +28,9 @@ const About = () => {
             </p>
             <p className="fn_desc fn_animated_text">
               The Transylvania Web3 Summit will be held at a modern convention center in the heart of Targu Mure, Romania. This state-of-the-art venue features high-speed internet and ample space for a seamless blend of in-person and digital experiences.
-            </p>
+            </p> */}
             
-            {/* Image List */}
+            {/* Image List 
             <div className="neoh_fn_images">
               <ul>
                 <li><img src="/img/about/aboutimg1.png" alt="About Image 1" /></li>
@@ -39,10 +39,10 @@ const About = () => {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* !Information Section */}
         
-        {/* Video Section */}
+        {/* Video Section 
         <section id="video">
           <div className="video_link">
             <video autoPlay loop muted onClick={handleVideoClick} className="video_background">
@@ -51,20 +51,16 @@ const About = () => {
             </video>
           </div>
         </section>
-        {/* !Video Section */}
+         !Video Section */}
         
         {/* Team Section */}
         <section id="team">
           <div className="container">
             <div className="neoh_fn_title">
-              <h3 className="fn_title">Meet The Hosts!</h3>
+              <h3 className="fn_title">Echipa RUA</h3>
             </div>
             <p className="fn_desc fn_animated_text">
-             Interact with decision-makers and
-influencers in the Web3 space, including
-tech leaders, early adopters, and industry
-experts.
-
+            Inima și motorul tuturor proiectelor noastre comunitare.
             </p>
             <div className="neoh_fn_team">
               <ul className="team_list">
@@ -96,9 +92,9 @@ experts.
                 )}
               </ul>
             </div>
-            <Link legacyBehavior href="/team">
+           {/* <Link legacyBehavior href="/team">
               <div className="full_button">Enter Team Page</div>
-            </Link>
+            </Link>*/}
           </div>
         </section>
         {/* !Team Section */}
