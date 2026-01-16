@@ -124,7 +124,16 @@ const Header = () => {
           <div className="logo">
             <Link legacyBehavior href="/">
               <a>
-                <img src="/img/menu/logo.png" alt="Logo" />
+               <img
+  src="/img/menu/logo.png"
+  alt="Logo"
+  width="200"
+  height="39"
+  style={{
+    objectFit: "contain",
+    display: "block",
+  }}
+/>
               </a>
             </Link>
           </div>
