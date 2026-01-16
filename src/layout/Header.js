@@ -20,11 +20,11 @@ const Header = () => {
             justifyContent: "space-between",
           }}
         >
-          {/* Close Button */}
           <div className="trigger_in" onClick={() => setToggle(false)}>
             <img src="/img/menu/close_button.png" alt="closeButton" />
           </div>
         </div>
+
         <div className="nav_content">
           <ul style={{ padding: "20px 0" }}>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
@@ -37,26 +37,6 @@ const Header = () => {
                 <a style={linkStyle}>Voluntari</a>
               </Link>
             </li>
-          {/*   <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/dayone">
-                <a style={linkStyle}>Day One Panel</a>
-              </Link>
-            </li>
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/daytwo">
-                <a style={linkStyle}>Day Two Panel</a>
-              </Link>
-            </li>
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <a href="/TwsBrochure.pdf" target="_blank" style={linkStyle}>
-                Brochure
-              </a>
-            </li>
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <a href="/PastSpeakers.pdf" target="_blank" style={linkStyle}>
-                Past Speakers
-              </a>
-            </li>*/}
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/contact">
                 <a style={linkStyle}>Contact</a>
@@ -64,6 +44,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
+
         {/* Nav Footer */}
         <div className={`nav_footer ${toggle ? "ready" : ""}`}>
           <div className="nf_left">
@@ -108,45 +89,20 @@ const Header = () => {
             position: "relative",
           }}
         >
-          {/* Animated Gradient Box 
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              width: "90%",
-              maxWidth: "400px",
-              padding: "15px 30px",
-              borderRadius: "10px",
-              textAlign: "center",
-              animation: "gradient-wave 3s linear infinite",
-              background: "linear-gradient(270deg, #00ff99, #0066ff, #00ff99)",
-              backgroundSize: "400% 400%",
-              boxShadow: "0 4px 15px rgba(0, 0, 0, 0.2)",
-            }}
-          >
-            <a
-              href="https://transylvaniasummit.com/daytwo"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#fff",
-                fontSize: "18px",
-                fontWeight: "bold",
-                textDecoration: "none",
-                wordBreak: "break-word",
-              }}
-            >
-              Day Two Panel
-            </a>
-          </div> */}
-
           {/* Logo */}
           <div className="logo">
             <Link legacyBehavior href="/">
               <a>
-                <img src="/img/menu/logo.png" alt="Logo" />
+                <img
+                  src="/img/menu/logo.png"
+                  alt="Logo"
+                  style={{
+                    width: "180px",
+                    height: "auto",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                  }}
+                />
               </a>
             </Link>
           </div>
@@ -166,37 +122,28 @@ const Header = () => {
         </div>
       </header>
 
-      {/* CSS for Animation */}
+      {/* CSS */}
       <style jsx>{`
-        @keyframes gradient-wave {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
+        .logo img {
+          width: 180px;
+          height: auto;
+        }
+
+        @media (max-width: 768px) {
+          .logo img {
+            width: 140px;
           }
         }
-        .neoh_fn_header div[style*="animation"] {
-          background-size: 200% 200%;
-        }
+
         .nav_content ul li a {
           font-size: 32px;
           font-weight: bold;
           color: #fff;
           transition: color 0.3s ease;
         }
+
         .nav_content ul li a:hover {
           color: #00bfff !important;
-        }
-        @media screen and (max-width: 768px) {
-          .neoh_fn_header div[style*="position: absolute"] {
-            width: 95%;
-            max-width: 300px;
-            font-size: 16px;
-          }
         }
       `}</style>
     </Fragment>
