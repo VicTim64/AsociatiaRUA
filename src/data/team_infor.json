@@ -46,6 +46,50 @@
             "linkedin": ""
         }
     },
+           {
+        "avatar": "team5.png",
+        "name": "Iohana Borșan",
+        "position": "PR",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team6.png",
+        "name": "Cosmina Pașcan",
+        "position": "Director Executiv",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team7.png",
+        "name": "Marius Popescu",
+        "position": "Șef Departament Marketing",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+           {
+        "avatar": "team8.png",
+        "name": "Vlad Olăreanu",
+        "position": "Șef Departament IT",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
                 {
         "avatar": "vol1.png",
         "name": "Moldovan Laurențiu",
