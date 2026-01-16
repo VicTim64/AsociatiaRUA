@@ -10,7 +10,17 @@
             "linkedin": ""
         }
     },
-         
+              {
+        "avatar": "team6.png",
+        "name": "Cosmina Pașcan",
+        "position": "Director Executiv",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
 
 
     {
@@ -57,17 +67,7 @@
             "linkedin": ""
         }
     },
-           {
-        "avatar": "team6.png",
-        "name": "Cosmina Pașcan",
-        "position": "Director Executiv",
-        "social": {
-            "twitter": "",
-            "facebook": "",
-            "instagram": "",
-            "linkedin": ""
-        }
-    },
+   
            {
         "avatar": "team7.png",
         "name": "Marius Popescu",
