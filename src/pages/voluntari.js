@@ -21,7 +21,7 @@ const Voluntari = () => {
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key > 4 &&(
+                  key > 8 &&(
                   <li className="team_item" key={key}>
                     <div className="t_item">
                       <div className="person_info">
