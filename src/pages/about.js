@@ -60,7 +60,7 @@ import { useCallback } from "react";
               <h3 className="fn_title">Echipa RUA</h3>
             </div>
             <p className="fn_desc fn_animated_text">
-            Inima și motorul tuturor proiectelor noastre comunitare.
+            RUA este o organizație construită în jurul unor oameni care cred în responsabilitate, colaborare și implicare pe termen lung. Activitatea noastră se bazează pe planificare, parteneriate și acțiuni bine coordonate, menite să răspundă eficient provocărilor sociale locale.
             </p>
             <div className="neoh_fn_team">
               <ul className="team_list">
