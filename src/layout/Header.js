@@ -74,21 +74,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-        {/* !Nav Footer */}
       </div>
-      {/* !Right Navigation */}
 
       {/* Header */}
       <header className="neoh_fn_header">
-        <div
-          className="header_in"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            position: "relative",
-          }}
-        >
+        <div className="header_in">
           {/* Logo */}
           <div className="logo">
             <Link legacyBehavior href="/">
@@ -96,27 +86,20 @@ const Header = () => {
                 <img
                   src="/img/menu/logo.png"
                   alt="Logo"
-                  style={{
-                    width: "180px",
-                    height: "auto",
-                    maxWidth: "100%",
-                    objectFit: "contain",
-                  }}
+                  className="logo_img"
                 />
               </a>
             </Link>
           </div>
 
           {/* Sandwich Menu */}
-          <div className="trigger" style={{ marginLeft: "auto" }}>
+          <div className="trigger">
             <div
               className="trigger_in"
               onClick={() => setToggle(!toggle)}
               style={{ cursor: "pointer" }}
             >
-              <a>
-                <img src="/img/menu/menu.png" alt="Menu" />
-              </a>
+              <img src="/img/menu/menu.png" alt="Menu" />
             </div>
           </div>
         </div>
@@ -124,14 +107,34 @@ const Header = () => {
 
       {/* CSS */}
       <style jsx>{`
-        .logo img {
-          width: 180px;
-          height: auto;
+        /* HEADER FIX HEIGHT */
+        .neoh_fn_header {
+          height: 72px;
+        }
+
+        .header_in {
+          height: 72px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        /* LOGO CONTROL */
+        .logo_img {
+          max-height: 48px;
+          width: auto;
+          object-fit: contain;
+          display: block;
         }
 
         @media (max-width: 768px) {
-          .logo img {
-            width: 140px;
+          .neoh_fn_header,
+          .header_in {
+            height: 64px;
+          }
+
+          .logo_img {
+            max-height: 40px;
           }
         }
 
