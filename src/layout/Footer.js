@@ -100,7 +100,7 @@ const Footer = () => {
               <a className="originTextColor" href="/about">
                 Despre Noi
               </a>
-             <a className="originTextColor" href="/speakers">
+             <a className="originTextColor" href="/voluntari">
                 Voluntari
               </a>
             
