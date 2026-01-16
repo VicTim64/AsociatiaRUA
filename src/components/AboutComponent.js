@@ -23,7 +23,7 @@ const AboutComponent = () => {
   <p>
          Misiunea noastră este clară: identificăm și susținem persoanele vulnerabile, creștem accesul la educație și sănătate, și activăm comunitățile prin voluntariat și responsabilizare. Fiecare acțiune pe care o întreprindem are un impact direct și real, iar împreună putem transforma destine.</p>
   <p>
-         Credem că solidaritatea nu este un lux, ci o nevoie fundamentală. Prin parteneriate cu autorități, ONG-uri și mediul privat, ne asigurăm că fiecare inițiativă este eficientă și durabilă, iar beneficiile ajung exact acolo unde sunt necesare.
+        Solidaritatea nu este un lux, ci o nevoie fundamentală. Prin parteneriate cu autorități, ONG-uri și mediul privat, ne asigurăm că fiecare inițiativă este eficientă și durabilă, iar beneficiile ajung exact acolo unde sunt necesare.
   </p>
             </div>
           </div>
@@ -40,13 +40,13 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-              RUA Mureș intervine prin programe și activități menite să răspundă nevoilor urgente ale comunităților vulnerabile. Ne concentrăm pe educație, sănătate și suport social, dar și pe condiții minime de trai: locuință, igienă și utilități de bază. Fiecare inițiativă este gândită pentru a crea rezultate tangibile și pentru a ajuta oamenii să își recâștige încrederea și speranța.
+              Intervenim prin programe și activități menite să răspundă nevoilor urgente ale comunităților vulnerabile. Ne concentrăm pe educație, sănătate și suport social, dar și pe condiții minime de trai: locuință, igienă și utilități de bază. Fiecare inițiativă este gândită pentru a crea rezultate tangibile și pentru a ajuta oamenii să își recâștige încrederea și speranța.
               </p>
                   <p>
                    Acțiunile noastre sunt adaptate nevoilor locale. Prin colaborarea cu lideri comunitari, cadre didactice și asistenți sociali, identificăm problemele devreme și intervenim rapid, înainte ca situațiile să se agraveze.
                   </p>
           <p>
-RUA Mureș crede în construirea unei rețele locale de sprijin, flexibilă și replicabilă, care să devină un punct de referință pentru comunitate și să inspire alte inițiative similare.
+Lucrăm în construirea unei rețele locale de sprijin, flexibilă și replicabilă, care să devină un punct de referință pentru comunitate și să inspire alte inițiative similare.
           </p>
                  
              
@@ -66,7 +66,7 @@ RUA Mureș crede în construirea unei rețele locale de sprijin, flexibilă și 
             </div>
             <div className="desc">
               <p>
-             Voluntariatul este inima RUA Mureș. Fiecare persoană care se implică devine un pilon de sprijin pentru cei aflați în dificultate. Poți contribui prin sesiuni educaționale, activități sociale, sprijin direct pentru familii sau prin organizarea de evenimente care să unească comunitatea.
+             Voluntariatul este inima asociației RUA. Fiecare persoană care se implică devine un pilon de sprijin pentru cei aflați în dificultate. Poți contribui prin sesiuni educaționale, activități sociale, sprijin direct pentru familii sau prin organizarea de evenimente care să unească comunitatea.
               </p>
                <p>
                   Implicarea voluntarilor nu doar ajută, ci și inspiră. Prin efortul colectiv, construim o rețea locală puternică, capabilă să identifice problemele devreme și să răspundă rapid. Orice gest de ajutor devine o punte între oameni și transformă viața celor care au cea mai mare nevoie.
