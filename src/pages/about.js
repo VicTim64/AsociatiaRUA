@@ -4,11 +4,11 @@ import TeamInfor from "@/data/team_infor.json";
 import Link from "next/link";
 import { useCallback } from "react";
 
-{/* const About = () => {
+ const DespreNoi = () => {
   const handleVideoClick = useCallback((event) => {
     event.preventDefault();
     window.open("https://www.youtube.com/watch?v=ielcYX0fRfg", "_blank");
-  }, []); */}
+  }, []); 
 
   return (
     <Layout pageName={"DespreNoi"}>
