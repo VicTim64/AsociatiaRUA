@@ -97,7 +97,7 @@ const Footer = () => {
           <div className="container">
             <div className="fb_in">
              
-              <a className="originTextColor" href="/team">
+              <a className="originTextColor" href="/about">
                 Despre Noi
               </a>
              <a className="originTextColor" href="/speakers">
