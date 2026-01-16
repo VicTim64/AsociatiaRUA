@@ -8,16 +8,13 @@ import TeamAdvisor from '@/data/team_advisor.json';
 
 const Team = () => {
   return (
-    <Layout pageName={"Speakers"}>
-      <PageBanner pageName={"Speakers"} imageURL={"img/hero/head_about_background.png"}/>
+    <Layout pageName={"Voluntari"}>
+      <PageBanner pageName={"Voluntari"} imageURL={"img/hero/head_about_background.png"}/>
       <div className="neoh_fn_teampage">
         <section id="team">
           <div className="container">
             <p className="fn_desc fn_animated_text">
-              Interact with decision-makers and
-influencers in the Web3 space, including
-tech leaders, early adopters, and industry
-experts.
+              Voluntarii RUA sunt motorul proiectelor noastre. Prin fiecare gest de sprijin, fiecare zâmbet și fiecare oră oferită, contribuie la construirea unei comunități mai puternice și mai unite.
             </p>
 
             {/* Team List Shortcode */}
