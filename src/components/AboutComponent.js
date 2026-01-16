@@ -18,7 +18,7 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-          La RUA Mureș credem că nicio familie sau persoană vulnerabilă nu ar trebui să se simtă singură. În județul nostru, provocările sociale se suprapun: sărăcia, lipsa accesului la educație și la servicii medicale afectează pe toată lumea din comunitate. De aceea, intervenim acolo unde nevoia este cea mai mare și construim o rețea de sprijin care să ajungă la fiecare colț al comunității.
+          Noi credem că nicio familie sau persoană vulnerabilă nu ar trebui să se simtă singură. În județul nostru, provocările sociale se suprapun: sărăcia, lipsa accesului la educație și la servicii medicale afectează pe toată lumea din comunitate. De aceea, intervenim acolo unde nevoia este cea mai mare și construim o rețea de sprijin care să ajungă la fiecare colț al comunității.
   </p>
   <p>
          Misiunea noastră este clară: identificăm și susținem persoanele vulnerabile, creștem accesul la educație și sănătate, și activăm comunitățile prin voluntariat și responsabilizare. Fiecare acțiune pe care o întreprindem are un impact direct și real, iar împreună putem transforma destine.</p>
