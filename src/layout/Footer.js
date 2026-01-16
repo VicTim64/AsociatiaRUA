@@ -4,10 +4,10 @@ const Footer = () => {
     <footer id="footer">
       <div className="neoh_fn_footer">
         {/* Footer Top */}
-        <div className="footer_top">
+      {/*  <div className="footer_top">
           <div className="container">
             <div className="ft_in">
-              <div className="desc">
+              <div className="desc"> */}
                 {/* <div className="img">
                   <img src="/img/footer-logo.png" alt="" />
                 </div> */}
@@ -19,9 +19,9 @@ const Footer = () => {
                   Morbi non dignissim erat, a blandit felis nec lorem vel orci
                   varius congue ut vitae est. Nam quis tempus nisl. Fusce
                   posuere nibh a mi molestie, sit amet ornare
-                </p> */}
+                </p> 
   
-              </div>
+              </div> */}
 {/*
               <div className="subscribe_form">
                 <div className="subscribe_in">
@@ -77,11 +77,11 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-*/}
+
             </div>
           </div>
         </div>
-
+*/}
 
 
        {/* <div style={{ display: 'flex', justifyContent: 'center', marginTop: '-100px'  }}>
