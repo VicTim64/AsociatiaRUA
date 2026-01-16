@@ -26,6 +26,8 @@ const Index = () => {
       "Îmbunătățirea condițiilor minime de trai",
     Comunitate:
       "Activarea comunităților prin voluntariat și responsabilizare",
+    Parteneriat:
+       "Consolidarea colaborării între autorități, ONG-uri și mediul privat"
   };
 
   useEffect(() => {
