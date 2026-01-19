@@ -62,15 +62,15 @@ const Contact = () => {
               <ul className="donation_list">
                 <li>
                   <span>Cont RON</span>
-                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                  <p>IBAN: RO73 BRDE 270S V492 3710 2700</p>
                 </li>
                 <li>
                   <span>Cont EUR</span>
-                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                  <p>IBAN: RO66 BRDE 270S V621 7704 2700 </p>
                 </li>
                 <li>
                   <span>Cont USD</span>
-                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                  <p>IBAN: RO72 BRDE 270S V621 7692 2700 </p>
                 </li>
               </ul>
 
