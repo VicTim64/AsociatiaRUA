@@ -82,10 +82,10 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* SEPARATOR */}
+            {/* SEPARATOR 
             <div className="contact_separator">
               <span>sau</span>
-            </div>
+            </div> */}
 
             {/* FORMULAR */}
             <div id="jotform-container" className="contact_form_holder"></div>
