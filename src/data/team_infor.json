@@ -1,7 +1,7 @@
 [
         { 
         "avatar": "team1.png",
-        "name": "Doru Borsan",
+        "name": "Doru Borșan",
         "position": "Președinte",
         "social": {
             "twitter": "",
@@ -37,7 +37,7 @@
     {
         "avatar": "team2.png",
         "name": "Melinda Chiruță",
-        "position": "Șef Dep. Asistență Socială Vârstnici",
+        "position": "Coord. Dep. Asistență Socială Vârstnici",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -48,7 +48,7 @@
         {
         "avatar": "team3.png",
         "name": "Cătălin Pop",
-        "position": "Șef Dep. Asistență Socială Copii",
+        "position": "Coord. Dep. Asistență Socială Copii",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -59,7 +59,7 @@
         {
         "avatar": "team4.png",
         "name": "Adrienn Novák",
-        "position": "Șef Dep. Logistică",
+        "position": "Coord. Dep. Logistică",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -82,7 +82,7 @@
            {
         "avatar": "team7.png",
         "name": "Marius Popescu",
-        "position": "Șef Dep. Marketing",
+        "position": "Coord. Dep. Marketing",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -93,7 +93,7 @@
            {
         "avatar": "team8.png",
         "name": "Vlad Olăreanu",
-        "position": "Șef Dep. IT",
+        "position": "Coord. Dep. IT",
         "social": {
             "twitter": "",
             "facebook": "",
