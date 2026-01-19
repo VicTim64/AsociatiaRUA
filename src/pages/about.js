@@ -100,6 +100,53 @@ import { useCallback } from "react";
           </div>
         </section>
         {/* !Team Section */}
+
+           {/* Team Section Diaspora */}
+        <section id="team">
+          <div className="container">
+            <div className="neoh_fn_title">
+              <h3 className="fn_title">RUA Diaspora</h3>
+            </div>
+            <p className="fn_desc fn_animated_text">
+            Echipa RUA Diaspora este formată din oameni care, deși trăiesc în afara României, aleg să rămână implicați în viața comunităților de acasă.
+Prin sprijin și implicare activă, diaspora devine o punte între experiența acumulată în afara țării și nevoile reale din România. Pentru noi, distanța nu înseamnă absență.
+            </p>
+            <div className="neoh_fn_team">
+              <ul className="team_list">
+                {TeamInfor.map((item, key) =>
+                  key > 9 && key < 12 (
+                    <li className="team_item" key={key}>
+                      <div className="t_item">
+                        <div className="person_info">
+                          <div className="img_holder">
+                            <img src={`img/team/${item.avatar}`} alt="avatar" />
+                          </div>
+                          <div className="title_holder">
+                            <h3 className="fn_title">{item.name}</h3>
+                            <p className="fn_desc">{item.position}</p>
+                          </div>
+                        </div>
+                      {/*   <div className="person_social">
+                          <ul>
+                            <li>
+                              <a href={item.social.linkedin}>
+                                <img src="img/team/linkedin_white.png" alt="linkedin_link" />
+                              </a>
+                            </li>
+                          </ul>
+                        </div>*/}
+                      </div>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+           {/* <Link legacyBehavior href="/team">
+              <div className="full_button">Enter Team Page</div>
+            </Link>*/}
+          </div>
+        </section>
+        {/* !Team Section  Diaspora*/}
       </div>
 
       {/* Inline CSS for the Video Section */}
