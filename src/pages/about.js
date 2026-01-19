@@ -7,7 +7,7 @@ import { useCallback } from "react";
  const DespreNoi = () => {
   const handleVideoClick = useCallback((event) => {
     event.preventDefault();
-    window.open("https://www.youtube.com/watch?v=ielcYX0fRfg", "_blank");
+    window.open("https://www.youtube.com/watch?v=wftgJqrGKR8", "_blank");
   }, []); 
 
   return (
@@ -41,7 +41,21 @@ import { useCallback } from "react";
           </div>
         </section> */}
         {/* !Information Section */}
-        
+       
+  {/* Video Section */}
+<section id="video">
+  <div className="video_container">
+    <iframe
+      className="video_background"
+      src="https://www.youtube.com/embed/wftgJqrGKR8?autoplay=1&mute=1&loop=1&playlist=wftgJqrGKR8&controls=0&rel=0&modestbranding=1"
+      title="YouTube video"
+      frameBorder="0"
+      allow="autoplay; encrypted-media"
+      allowFullScreen
+    />
+  </div>
+</section>
+{/* !Video Section */}
         {/* Video Section 
         <section id="video">
           <div className="video_link">
