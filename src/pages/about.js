@@ -42,21 +42,9 @@ import { useCallback } from "react";
         </section> */}
         {/* !Information Section */}
        
-  {/* Video Section */}
-<section id="video">
-  <div className="video_container">
-    <iframe
-      className="video_background"
-      src="https://www.youtube.com/embed/wftgJqrGKR8?autoplay=1&mute=1&loop=1&playlist=wftgJqrGKR8&controls=0&rel=0&modestbranding=1"
-      title="YouTube video"
-      frameBorder="0"
-      allow="autoplay; encrypted-media"
-      allowFullScreen
-    />
-  </div>
-</section>
+
 {/* !Video Section */}
-        {/* Video Section 
+         Video Section 
         <section id="video">
           <div className="video_link">
             <video autoPlay loop muted onClick={handleVideoClick} className="video_background">
@@ -65,7 +53,7 @@ import { useCallback } from "react";
             </video>
           </div>
         </section>
-         !Video Section */}
+         !Video Section 
         
         {/* Team Section */}
         <section id="team">
