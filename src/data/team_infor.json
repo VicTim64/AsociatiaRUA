@@ -101,10 +101,17 @@
             "linkedin": ""
         }
     },
+
+
+
+
+
+
+        
           {
         "avatar": "dias1.png",
         "name": "Bogdan Silvas",
-        "position": "",
+        "position": "Coord. Germania",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -115,7 +122,7 @@
           {
         "avatar": "dias2.png",
         "name": "Olga Timea Farcaș ",
-        "position": "",
+        "position": "Coord. Spania",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -126,7 +133,7 @@
           {
         "avatar": "dias3.png",
         "name": "Mureșan  Petru  Mircea",
-        "position": "",
+        "position": "Coord. Franța",
         "social": {
             "twitter": "",
             "facebook": "",
@@ -134,6 +141,49 @@
             "linkedin": ""
         }
     },
+         {
+        "avatar": "dias4.png",
+        "name": "Tito Galanti",
+        "position": "Coord. Italia",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+         {
+        "avatar": "dias5.png",
+        "name": "Mats Paulsson",
+        "position": "Coord. Țările Nordice",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+    {
+        "avatar": "dias6.png",
+        "name": "Christian Meier",
+        "position": "Coord. Elveția",
+        "social": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "linkedin": ""
+        }
+    },
+
+
+
+
+
+
+
+
+
+        
                 {
         "avatar": "vol1.png",
         "name": "Moldovan Laurențiu",
@@ -233,9 +283,10 @@
             "linkedin": ""
         }
     },
-                   {
+                   
+                     {
         "avatar": "vol10.png",
-        "name": "Ureche Maria-Cristina",
+        "name": "Ravasz Viktória",
         "position": "",
         "social": {
             "twitter": "",
@@ -244,9 +295,9 @@
             "linkedin": ""
         }
     },
-                     {
+        {
         "avatar": "vol11.png",
-        "name": "Ravasz Viktória",
+        "name": "Ureche Maria-Cristina",
         "position": "",
         "social": {
             "twitter": "",
