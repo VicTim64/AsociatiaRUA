@@ -27,12 +27,12 @@ const Contact = () => {
         <div className="container">
           <div className="contact_wrapper">
 
-            {/* Contact Info */}
+            {/* CONTACT */}
             <div className="contact_card">
               <h3 className="fn_title">Ne puteți contacta oricând</h3>
               <p className="fn_desc">
-                Pentru întrebări, colaborări sau informații suplimentare, ne
-                puteți scrie sau suna folosind datele de mai jos.
+                Pentru întrebări, colaborări sau informații suplimentare,
+                ne puteți scrie sau suna folosind datele de mai jos.
               </p>
 
               <ul className="contact_list">
@@ -51,12 +51,43 @@ const Contact = () => {
               </ul>
             </div>
 
-            {/* Separator */}
+            {/* DONATII */}
+            <div className="donation_card">
+              <h3 className="fn_title">Susține activitatea noastră</h3>
+              <p className="fn_desc">
+                Donațiile ne ajută să continuăm proiectele sociale dedicate
+                comunității. Vă mulțumim pentru sprijin.
+              </p>
+
+              <ul className="donation_list">
+                <li>
+                  <span>Cont RON</span>
+                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                </li>
+                <li>
+                  <span>Cont EUR</span>
+                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                </li>
+                <li>
+                  <span>Cont USD</span>
+                  <p>IBAN: ROXX BRDE XXXX XXXX XXXX</p>
+                </li>
+              </ul>
+
+              <div className="donation_footer">
+                <p>
+                  Titular cont: <strong>Asociația Români Uniți Acasă – RUA</strong><br />
+                  Bancă: <strong>BRD</strong>
+                </p>
+              </div>
+            </div>
+
+            {/* SEPARATOR */}
             <div className="contact_separator">
               <span>sau</span>
             </div>
 
-            {/* JotForm */}
+            {/* FORMULAR */}
             <div id="jotform-container" className="contact_form_holder"></div>
 
           </div>
@@ -66,34 +97,37 @@ const Contact = () => {
       {/* Styles */}
       <style jsx>{`
         .contact_wrapper {
-          max-width: 800px;
+          max-width: 900px;
           margin: 0 auto;
           text-align: center;
         }
 
-        .contact_card {
+        .contact_card,
+        .donation_card {
           background: rgba(255,255,255,0.04);
           padding: 40px;
           border-radius: 20px;
-          margin-bottom: 40px;
+          margin-bottom: 50px;
         }
 
-        .contact_list {
+        .contact_list,
+        .donation_list {
           list-style: none;
           padding: 0;
           margin: 30px 0 0;
         }
 
-        .contact_list li {
+        .contact_list li,
+        .donation_list li {
           margin-bottom: 20px;
-          font-size: 18px;
         }
 
-        .contact_list span {
+        .contact_list span,
+        .donation_list span {
           display: block;
           font-size: 14px;
           opacity: 0.6;
-          margin-bottom: 4px;
+          margin-bottom: 6px;
         }
 
         .contact_list a {
@@ -102,9 +136,20 @@ const Contact = () => {
           color: inherit;
         }
 
+        .donation_list p {
+          font-family: monospace;
+          font-size: 18px;
+        }
+
+        .donation_footer {
+          margin-top: 30px;
+          font-size: 14px;
+          opacity: 0.7;
+        }
+
         .contact_separator {
           position: relative;
-          margin: 50px 0;
+          margin: 60px 0;
           text-align: center;
         }
 
