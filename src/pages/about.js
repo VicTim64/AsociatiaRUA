@@ -17,7 +17,7 @@ import { useCallback } from "react";
         imageURL={"img/hero/head_about_background.png"}
       />
       <div className="neoh_fn_aboutpage">
-        {/* Information Section */}
+        {/* Information Section 
         <section id="information">
           <div className="container">
             <p className="fn_desc fn_animated_text">
@@ -29,7 +29,7 @@ import { useCallback } from "react";
             <p className="fn_desc fn_animated_text">
               The Transylvania Web3 Summit will be held at a modern convention center in the heart of Targu Mure, Romania. This state-of-the-art venue features high-speed internet and ample space for a seamless blend of in-person and digital experiences.
             </p> 
-            
+            */}
             {/* Image List 
             <div className="neoh_fn_images">
               <ul>
@@ -44,7 +44,7 @@ import { useCallback } from "react";
        
 
 {/* !Video Section */}
-         Video Section 
+        
         <section id="video">
           <div className="video_link">
             <video autoPlay loop muted onClick={handleVideoClick} className="video_background">
@@ -53,7 +53,7 @@ import { useCallback } from "react";
             </video>
           </div>
         </section>
-         !Video Section 
+         
         
         {/* Team Section */}
         <section id="team">
