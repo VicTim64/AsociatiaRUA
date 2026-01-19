@@ -87,8 +87,8 @@ const Header = () => {
             <div className="neoh_fn_social_list">
               <ul>
                 <li>
-                  <a href="https://www.linkedin.com">
-                    <img src="/img/menu/menu_linkedin.png" />
+                  <a href="https://www.instagram.com/asociatia.rua">
+                    <img src="/img/menu/menu_instagram.png" />
                   </a>
                 </li>
                 <li>
@@ -97,8 +97,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com">
-                    <img src="/img/menu/menu_twitter.png" />
+                  <a href="https://www.tiktok.com/@asociatia.rua">
+                    <img src="/img/menu/menu_tiktok.png" />
                   </a>
                 </li>
               </ul>
