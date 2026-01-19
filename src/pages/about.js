@@ -79,7 +79,7 @@ import { useCallback } from "react";
                             <p className="fn_desc">{item.position}</p>
                           </div>
                         </div>
-                        <div className="person_social">
+                      {/*   <div className="person_social">
                           <ul>
                             <li>
                               <a href={item.social.linkedin}>
@@ -87,7 +87,7 @@ import { useCallback } from "react";
                               </a>
                             </li>
                           </ul>
-                        </div>
+                        </div>*/}
                       </div>
                     </li>
                   )
