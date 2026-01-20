@@ -1,54 +1,34 @@
 [
 {
   "titlu": "ShoeBox Mureș",
-  "descriere": [
-    "În fiecare iarnă, un copil nu ar trebui să simtă frigul... nici în picioare, nici în inimă. Campania ShoeBox Mureș - Încalță un copil de Crăciun aduce încălțăminte și speranță pentru peste 1000 de copii din județul Mureș.",
-    "Cu sprijinul oamenilor cu inimă mare și al comunității, pachetele ajung în familii care uneori nu ar avea nici măcar strictul necesar. Fiecare pereche de ghete este mai mult decât un obiect - este grijă, protecție și demnitate.",
-    "Implicarea managerului de caz, voluntari, parteneri și donatori a transformat munca în povești de speranță: peste 1000 de copii încălțați, peste 1000 de suflete încălzite. Binele nu are nevoie de aplauze, doar de oameni care îl fac posibil."
-  ],
-  "poze": [
-    { "src": "/img/cazuri/2.png", "position": "left" },
-    { "src": "/img/cazuri/2.png", "position": "right" },
-    { "src": "/img/cazuri/2.png", "position": "left" }
+  "cazuri": [
+    {
+      "text": "În fiecare iarnă, un copil nu ar trebui să simtă frigul... nici în picioare, nici în inimă. Campania ShoeBox Mureș - Încalță un copil de Crăciun aduce încălțăminte și speranță pentru peste 1000 de copii din județul Mureș.",
+      "poza": "/img/cazuri/shoebox/1.png",
+      "pozitie": "left"
+    },
+    {
+      "text": "Cu sprijinul oamenilor cu inimă mare și al comunității, pachetele ajung în familii care uneori nu ar avea nici măcar strictul necesar. Fiecare pereche de ghete este mai mult decât un obiect - este grijă, protecție și demnitate.",
+      "poza": "/img/cazuri/shoebox/2.png",
+      "pozitie": "right"
+    },
+    {
+      "text": "Implicarea managerului de caz, voluntari, parteneri și donatori a transformat munca în povești de speranță: peste 1000 de copii încălțați, peste 1000 de suflete încălzite. Binele nu are nevoie de aplauze, doar de oameni care îl fac posibil.",
+      "poza": "/img/cazuri/shoebox/3.png",
+      "pozitie": "left"
+    }
   ],
   "slider": [
-    "/img/cazuri/slider/2.png",
-    "/img/cazuri/slider/2.png",
-    "/img/cazuri/slider/2.png"
+    "/img/cazuri/shoebox/slider/1.png",
+    "/img/cazuri/shoebox/slider/2.png",
+    "/img/cazuri/shoebox/slider/3.png",
+    "/img/cazuri/shoebox/slider/4.png",
+    "/img/cazuri/shoebox/slider/5.png",
+    "/img/cazuri/shoebox/slider/6.png",
+    "/img/cazuri/shoebox/slider/7.png",
+    "/img/cazuri/shoebox/slider/8.png",
+    "/img/cazuri/shoebox/slider/9.png"
   ]
-},
-
-  {
-    "titlu": "Cazul Ion",
-    "descriere": [
-      "Ion are nevoie de sprijin medical urgent.",
-      "Comunitatea a răspuns deja cu ajutoare inițiale."
-    ],
-    "poze": [
-      { "src": "/img/cazuri/6.png", "position": "left" },
-      { "src": "/img/cazuri/6.png", "position": "right" }
-    ],
-    "slider": [
-      "/img/cazuri/slider/6.png",
-      "/img/cazuri/slider/6.png",
-      "/img/cazuri/slider/6.png"
-    ]
-  },
-  {
-    "titlu": "Cazul Ana",
-    "descriere": [
-      "Ana are nevoie de sprijin pentru locuință și educație.",
-      "Asociația RUA a început o campanie de strângere de fonduri."
-    ],
-    "poze": [
-      { "src": "/img/cazuri/8.png", "position": "left" },
-      { "src": "/img/cazuri/8.png", "position": "right" }
-    ],
-    "slider": [
-      "/img/cazuri/slider/8.png",
-      "/img/cazuri/slider/8.png",
-      "/img/cazuri/slider/8.png"
-    ]
-  }
+}
 ]
 
