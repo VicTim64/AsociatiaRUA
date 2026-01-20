@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import landing_infor from "@/data/landing.json";
-//import partners_infor from "@/data/partners.json";
+import partners_infor from "@/data/partners.json";
 
 const WhyChooseUsComponent = () => {
   // Define styles for the logo container and the image itself
@@ -54,8 +54,32 @@ const WhyChooseUsComponent = () => {
           ))}
         </Swiper>
 
+        <div className="neoh_fn_title">
+          <h3 className="fn_title" style={{ marginTop: "100px" }}>Partners</h3>
+        </div>
 
+        <div className="neoh_fn_investor">
+          <ul>
+            {partners_infor.map((index, key) => (
+              <li key={key}>
+                <div className="item">
+                  <div style={logoContainerStyles}>
+                    <img
+                      src={`img/landing/${index.logo}`}
+                      alt={index.title}
+                      style={logoStyles}
+                    />
+                  </div>
+                  <a href={index.url} className="full_link" />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
        
+    </section>
+  );
 };
 
 export default WhyChooseUsComponent;
