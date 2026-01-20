@@ -14,7 +14,7 @@ const CazuriSocialePage = () => {
         imageURL="img/hero/head_about_background.png"
       />
 
-      {/* Video sub titlu */}
+      {/* Video sub titlu */}{/**/}
       <VideoPopupLocal
         videoSrc="/img/MAAS/MAAS_movie.mp4"
         trigger={
