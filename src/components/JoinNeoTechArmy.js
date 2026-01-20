@@ -81,7 +81,7 @@ const JoinNeoTechArmy = () => {
 
   return (
     <div className={styles.container}>
-      <h3> Fii parte din mișcarea RUA !</h3> 
+      <h3> Fii parte din mișcarea RUA !</h3> </br>
       <div className={styles.explanationContainer}>
         <p className={styles.explanation}>
 Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
