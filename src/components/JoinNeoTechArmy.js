@@ -81,13 +81,14 @@ const JoinNeoTechArmy = () => {
 
   return (
     <div className={styles.container}>
-      <h2>Support us!</h2>
+      <h2> Fii parte din mișcarea RUA !</h2>
       <div className={styles.explanationContainer}>
         <p className={styles.explanation}>
-            Upload your picture, or take a selfie if you are on your phone and we will add our watermark to it. 
-          You can then download it and use it as your profile picture on social platforms to support us. 
-          If you don't like the preview, you can choose another picture. 
-          We are not storing these pictures anywhere therefore if you refresh the page you will have to repeat the process.
+Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
+Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
+Dacă nu-ți place previzualizarea, poți alege o altă poză.
+Nu stocăm aceste poze nicăieri, așadar dacă reîncarci pagina va trebui să repeți procesul.
+
         </p>
         {image ? (
           <div className={styles.previewContainer}>
