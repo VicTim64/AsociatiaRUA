@@ -1,13 +1,18 @@
 [
   {
-    "titlu": "Cazul Maria",
+    "titlu": "ShoeBox Mureș",
     "descriere": [
-      "Maria are nevoie de sprijin pentru continuarea studiilor.",
-      "Familia ei se confruntă cu dificultăți materiale majore."
+      "În fiecare iarnă, un copil nu ar trebui să simtă frigul… nici în picioare, nici în inimă.
+Campania ShoeBox Mureș – Încalță un copil de Crăciun, aduce încălțăminte și speranță pentru peste 1000 de copii din județul Mureș.",
+      "Cu sprijinul oamenilor cu inimă mare și al comunității, pachetele ajung în familii care uneori nu ar avea nici măcar strictul necesar.
+Fiecare pereche de ghete este mai mult decât un obiect – este grijă, protecție și demnitate.",
+      "Implicarea managerului de caz, voluntari, parteneri și donatori a transformat munca în povești de speranță: peste 1000 de copii încălțați, peste 1000 de suflete încălzite.
+Binele nu are nevoie de aplauze, doar de oameni care îl fac posibil."
     ],
     "poze": [
       { "src": "/img/cazuri/2.png", "position": "left" },
-      { "src": "/img/cazuri/2.png", "position": "right" }
+      { "src": "/img/cazuri/2.png", "position": "right" },
+      { "src": "/img/cazuri/2.png", "position": "left" }
     ],
     "slider": [
       "/img/cazuri/slider/2.png",
