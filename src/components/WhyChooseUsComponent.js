@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import landing_infor from "@/data/landing.json";
-import partners_infor from "@/data/partners.json";
+//import partners_infor from "@/data/partners.json";
 
 const WhyChooseUsComponent = () => {
   // Define styles for the logo container and the image itself
