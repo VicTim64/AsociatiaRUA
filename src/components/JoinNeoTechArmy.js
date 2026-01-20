@@ -20,13 +20,11 @@ const JoinNeoTechArmy = () => {
           const aspectRatio = img.width / img.height;
           let cropWidth, cropHeight;
           if (aspectRatio > 1) {
-            // Landscape image
             cropHeight = img.height;
-            cropWidth = img.height; // Make it a square crop
+            cropWidth = img.height; // square crop
           } else {
-            // Portrait or square image
             cropWidth = img.width;
-            cropHeight = img.width; // Make it a square crop
+            cropHeight = img.width; // square crop
           }
 
           const offsetX = (img.width - cropWidth) / 2;
@@ -35,7 +33,7 @@ const JoinNeoTechArmy = () => {
           canvas.width = 400;
           canvas.height = 400;
 
-          // Draw the circular clipping path
+          // Draw circular clipping
           ctx.beginPath();
           ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, 0, Math.PI * 2);
           ctx.closePath();
@@ -54,7 +52,7 @@ const JoinNeoTechArmy = () => {
             canvas.height
           );
 
-          // Draw the watermark
+          // Draw watermark
           const watermark = watermarkRef.current;
           ctx.drawImage(watermark, 0, 0, canvas.width, canvas.height);
         };
@@ -70,7 +68,7 @@ const JoinNeoTechArmy = () => {
     const url = canvas.toDataURL("image/png");
     const link = document.createElement("a");
     link.href = url;
-    link.download = "TWS_profile.png";
+    link.download = "RUA_profile.png";
     link.click();
   };
 
@@ -80,53 +78,57 @@ const JoinNeoTechArmy = () => {
   };
 
   return (
-   
-    <div className={styles.container}>
-      <h3> Fii parte din mișcarea RUA !</h3>
-      <div className={styles.explanationContainer}>
-        <p className={styles.explanation}>
-Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
-Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
-Dacă nu-ți place previzualizarea, poți alege o altă poză.
-Nu stocăm aceste poze nicăieri, așadar dacă reîncarci pagina va trebui să repeți procesul.
+    <section id="join-rua">
+      <div className="container">
+        {/* Titlu identic cu secțiunea „Împreună pentru binele comun!” */}
+        <div className="neoh_fn_title">
+          <h3 className="fn_title">Fii parte din mișcarea RUA!</h3>
+        </div>
 
-        </p>
-        {image ? (
-          <div className={styles.previewContainer}>
-            <canvas ref={canvasRef} className={styles.canvas} />
-            <div className={styles.buttonsContainer}>
-              <button className={styles.downloadButton} onClick={handleDownload}>
-                Descarcă Imaginea
-              </button>
-              <button
-                className={styles.chooseAnotherButton}
-                onClick={handleChooseAnother}
-              >
-                Alege altă imagine
-              </button>
+        {/* Conținutul principal */}
+        <div className={styles.explanationContainer}>
+          <p className={styles.explanation}>
+            Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
+            Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
+            Dacă nu-ți place previzualizarea, poți alege o altă poză.
+            Nu stocăm aceste poze nicăieri, așadar dacă reîncarci pagina va trebui să repeți procesul.
+          </p>
+
+          {image ? (
+            <div className={styles.previewContainer}>
+              <canvas ref={canvasRef} className={styles.canvas} />
+              <div className={styles.buttonsContainer}>
+                <button className={styles.downloadButton} onClick={handleDownload}>
+                  Descarcă Imaginea
+                </button>
+                <button className={styles.chooseAnotherButton} onClick={handleChooseAnother}>
+                  Alege altă imagine
+                </button>
+              </div>
             </div>
-          </div>
-        ) : (
-          <>
+          ) : (
             <label className={styles.customFileUpload}>
-              Choose File
+              Alege fișier
               <input
                 type="file"
                 className={styles.hiddenInput}
                 onChange={handleFileChange}
               />
             </label>
-          </>
-        )}
+          )}
+        </div>
+
+        {/* Watermark invizibil */}
+        <img
+          ref={watermarkRef}
+          src="/img/watermark.png"
+          alt="Watermark"
+          className={styles.hidden}
+        />
       </div>
-      <img
-        ref={watermarkRef}
-        src="/img/watermark.png"
-        alt="Watermark"
-        className={styles.hidden}
-      />
-    </div>
+    </section>
   );
 };
 
 export default JoinNeoTechArmy;
+
