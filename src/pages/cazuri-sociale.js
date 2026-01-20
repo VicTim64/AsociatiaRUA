@@ -16,7 +16,7 @@ const CazuriSocialePage = () => {
         <div className="bg_overlay">
           <video
             className="bg_video"
-            src="/video/cazuri_video.mp4"
+            src="/img/MAAS/MAAS_movie.mp4"
             autoPlay
             loop
             muted
