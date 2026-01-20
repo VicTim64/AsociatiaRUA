@@ -22,7 +22,7 @@ const CazuriSocialePage = () => {
             muted
             playsInline
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            onClick={() => VideoPopup.open("/video/cazuri_video.mp4")}
+            onClick={() => VideoPopup.open("/img/MAAS/MAAS_movie.mp4")}
           />
         </div>
         <div className="v_content">
@@ -30,7 +30,7 @@ const CazuriSocialePage = () => {
             src="svg/play.svg"
             alt=""
             className="fn__svg"
-            onClick={() => VideoPopup.open("/video/cazuri_video.mp4")}
+            onClick={() => VideoPopup.open("/img/MAAS/MAAS_movie.mp4")}
           />
         </div>
       </div>
