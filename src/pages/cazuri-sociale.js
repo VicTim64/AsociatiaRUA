@@ -8,7 +8,7 @@ const CazuriSocialePage = () => {
     <Layout pageName="Cazuri Sociale">
       <PageBanner
         pageName="Cazuri Sociale"
-        imageURL="/img/hero/cazuri_background.png"
+        imageURL="img/hero/head_MAAS_background.png"
       />
 
       {/* Video sub titlu */}
