@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import cazuriData from "@/data/cazuri.json";
-import VideoPopup from "./popup/VideoPopup";
 
 const CazuriSociale = () => {
   const [cazuri, setCazuri] = useState([]);
