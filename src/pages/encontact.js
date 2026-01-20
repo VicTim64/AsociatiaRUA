@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 
-const Contact = () => {
+const EnContact = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://form.jotform.com/jsform/250748554584367";
@@ -17,9 +17,9 @@ const Contact = () => {
   }, []);
 
   return (
-    <Layout pageName="Contact">
+    <Layout pageName="EnContact">
       <PageBanner
-        pageName="Contact"
+        pageName="EnContact"
         imageURL="img/hero/head_about_background.png"
       />
 
@@ -29,10 +29,10 @@ const Contact = () => {
 
             {/* CONTACT */}
             <div className="contact_card">
-              <h3 className="fn_title">Ne puteți contacta oricând</h3>
+              <h3 className="fn_title">You can contact us anytime.</h3>
               <p className="fn_desc">
-                Pentru întrebări, colaborări sau informații suplimentare,
-                ne puteți scrie sau suna folosind datele de mai jos.
+               For questions, collaborations, or additional information,
+you can write to us or call us using the contact details below.
               </p>
 
               <ul className="contact_list">
@@ -43,7 +43,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <span>Telefon / WhatsApp</span>
+                  <span>Phone / WhatsApp</span>
                   <a href="tel:+40786493557">
                     +40 786 493 557
                   </a>
@@ -53,10 +53,9 @@ const Contact = () => {
 
             {/* DONATII */}
             <div className="donation_card">
-              <h3 className="fn_title">Susține activitatea noastră</h3>
+              <h3 className="fn_title">Support our work</h3>
               <p className="fn_desc">
-                Donațiile ne ajută să continuăm proiectele sociale dedicate
-                comunității. Vă mulțumim pentru sprijin.
+                Donations help us continue social projects dedicated to the community. Thank you for your support.
               </p>
 
               <ul className="donation_list">
@@ -76,8 +75,8 @@ const Contact = () => {
 
               <div className="donation_footer">
                 <p>
-                  Titular cont: <strong>Asociația Români Uniți Acasă – RUA</strong><br />
-                  Bancă: <strong>BRD</strong>
+                  Account Owner: <strong>Asociația Români Uniți Acasă – RUA</strong><br />
+                  Bank: <strong>BRD</strong>
                 </p>
               </div>
             </div>
@@ -178,5 +177,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default EnContact;
 
