@@ -26,6 +26,15 @@
   color: white;
 }
 
+.caz_item .fn_subtitle {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #007bff; /* albastru */
+  margin-bottom: 40px;
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   .caz_row {
     flex-direction: column !important;
@@ -36,3 +45,4 @@
     width: 100%;
   }
 }
+
