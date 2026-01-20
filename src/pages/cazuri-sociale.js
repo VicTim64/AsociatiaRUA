@@ -8,7 +8,7 @@ const CazuriSocialePage = () => {
     <Layout pageName="Cazuri Sociale">
       <PageBanner
         pageName="Cazuri Sociale"
-        imageURL="/img/hero/cazuri_background.png"
+        imageURL="img/hero/head_MAAS_background.png"
       />
 
       {/* Video sub titlu */}
@@ -16,7 +16,7 @@ const CazuriSocialePage = () => {
         <div className="bg_overlay">
           <video
             className="bg_video"
-            src="/video/cazuri_video.mp4"
+            src="/img/MAAS/MAAS_movie.mp4"
             autoPlay
             loop
             muted
@@ -26,7 +26,7 @@ const CazuriSocialePage = () => {
         </div>
         <div className="v_content">
           <VideoPopupLocal
-            videoSrc="/video/cazuri_video.mp4"
+            videoSrc="/img/MAAS/MAAS_movie.mp4"
             trigger={<img src="svg/play.svg" alt="Play" className="fn__svg" />}
           />
         </div>
