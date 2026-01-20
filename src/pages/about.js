@@ -114,7 +114,7 @@ Prin sprijin și implicare activă, diaspora devine o punte între experiența a
             <div className="neoh_fn_team">
               <ul className="team_list">
                 {TeamInfor.map((item, key) =>
-                  key > 8 && key < 12 && (
+                  key > 8 && key < 15 && (
                     <li className="team_item" key={key}>
                       <div className="t_item">
                         <div className="person_info">
