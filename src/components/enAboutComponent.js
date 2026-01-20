@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const AboutComponent = () => {
+const EnAboutComponent = () => {
   return (
     <section id="about">
       <div className="container">
@@ -11,19 +11,17 @@ const AboutComponent = () => {
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Împreună pentru comunități</h3>
+              <h3 className="fn_title">Together for communities!</h3>
               {/* <div className="line">
                 <span />
               </div> */}
             </div>
             <div className="desc">
               <p>
-          Noi credem că nicio familie sau persoană vulnerabilă nu ar trebui să se simtă singură. În județul nostru, provocările sociale se suprapun: sărăcia, lipsa accesului la educație și la servicii medicale afectează pe toată lumea din comunitate. De aceea, intervenim acolo unde nevoia este cea mai mare și construim o rețea de sprijin care să ajungă la fiecare colț al comunității.
-  </p>
+         We believe that no vulnerable family or individual should feel alone. In our county, social challenges overlap: poverty, lack of access to education, and limited healthcare affect everyone in the community. That is why we intervene where the need is greatest and build a support network that reaches every corner of the community. </p>
   <p>
-         Misiunea noastră este clară: identificăm și susținem persoanele vulnerabile, creștem accesul la educație și sănătate, și activăm comunitățile prin voluntariat și responsabilizare. Fiecare acțiune pe care o întreprindem are un impact direct și real, iar împreună putem transforma destine.</p>
-  <p>
-        Solidaritatea nu este un lux, ci o nevoie fundamentală. Prin parteneriate cu autorități, ONG-uri și mediul privat, ne asigurăm că fiecare inițiativă este eficientă și durabilă, iar beneficiile ajung exact acolo unde sunt necesare.
+       Our mission is clear: we identify and support vulnerable individuals, increase access to education and healthcare, and activate communities through volunteering and responsibility. Every action we take has a direct and real impact, and together we can transform lives. <p>
+       Solidarity is not a luxury, but a fundamental need. Through partnerships with authorities, NGOs, and the private sector, we ensure that every initiative is effective and sustainable, and that the benefits reach exactly where they are needed.
   </p>
             </div>
           </div>
@@ -40,13 +38,11 @@ const AboutComponent = () => {
             </div>
             <div className="desc">
               <p>
-              Intervenim prin programe și activități menite să răspundă nevoilor urgente ale comunităților vulnerabile. Ne concentrăm pe educație, sănătate și suport social, dar și pe condiții minime de trai: locuință, igienă și utilități de bază. Fiecare inițiativă este gândită pentru a crea rezultate tangibile și pentru a ajuta oamenii să își recâștige încrederea și speranța.
-              </p>
+             We intervene through programs and activities designed to address the urgent needs of vulnerable communities. We focus on education, health, and social support, as well as minimum living conditions: housing, hygiene, and basic utilities. Every initiative is designed to create tangible results and help people regain their confidence and hope.</p>
                   <p>
-                   Acțiunile noastre sunt adaptate nevoilor locale. Prin colaborarea cu lideri comunitari, cadre didactice și asistenți sociali, identificăm problemele devreme și intervenim rapid, înainte ca situațiile să se agraveze.
-                  </p>
+                  Our actions are tailored to local needs. By collaborating with community leaders, teachers, and social workers, we identify problems early and intervene quickly, before situations worsen. </p>
           <p>
-Lucrăm în construirea unei rețele locale de sprijin, flexibilă și replicabilă, care să devină un punct de referință pentru comunitate și să inspire alte inițiative similare.
+We work on building a local support network that is flexible and replicable, designed to become a reference point for the community and to inspire other similar initiatives.
           </p>
                  
              
@@ -62,16 +58,14 @@ Lucrăm în construirea unei rețele locale de sprijin, flexibilă și replicabi
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">
-              <h3 className="fn_title">Parte din schimbare</h3>
+              <h3 className="fn_title">Part of a change</h3>
             </div>
             <div className="desc">
               <p>
-             Voluntariatul este inima asociației RUA. Fiecare persoană care se implică devine un pilon de sprijin pentru cei aflați în dificultate. Poți contribui prin sesiuni educaționale, activități sociale, sprijin direct pentru familii sau prin organizarea de evenimente care să unească comunitatea.
-              </p>
+            Volunteering is the heart of the RUA association. Every person who gets involved becomes a pillar of support for those in need. You can contribute through educational sessions, social activities, direct support for families, or by organizing events that bring the community together. </p>
                <p>
-                  Implicarea voluntarilor nu doar ajută, ci și inspiră. Prin efortul colectiv, construim o rețea locală puternică, capabilă să identifice problemele devreme și să răspundă rapid. Orice gest de ajutor devine o punte între oameni și transformă viața celor care au cea mai mare nevoie.
-                    </p>
-  <p> Te invităm să te alături inițiativelor noastre. Fiecare oră dedicată, fiecare zâmbet oferit și fiecare resursă pusă la dispoziție contribuie la construirea unei comunități mai sigure, mai unite și mai empatică. Împreună putem face diferența! </p>
+                  Volunteer involvement not only helps, but also inspires. Through collective effort, we build a strong local network capable of identifying problems early and responding quickly. Every act of help becomes a bridge between people and transforms the lives of those who need it most.  </p>
+  <p> We invite you to join our initiatives. Every hour you dedicate, every smile you give, and every resource you provide contributes to building a safer, more united, and more empathetic community. Together, we can make a difference! </p>
 
             </div>
           </div>
@@ -81,4 +75,4 @@ Lucrăm în construirea unei rețele locale de sprijin, flexibilă și replicabi
     </section>
   );
 };
-export default AboutComponent;
+export default EnAboutComponent;
