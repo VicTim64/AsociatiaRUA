@@ -6,15 +6,15 @@ import { useEffect, useState } from "react";
 import TeamInfor from "@/data/team_infor.json";
 import TeamAdvisor from '@/data/team_advisor.json';
 
-const Voluntari = () => {
+const EnVoluntari = () => {
   return (
-    <Layout pageName={"Voluntari"}>
-      <PageBanner pageName={"Voluntari"} imageURL={"img/hero/head_about_background.png"}/>
+    <Layout pageName={"EnVoluntari"}>
+      <PageBanner pageName={"EnVoluntari"} imageURL={"img/hero/head_about_background.png"}/>
       <div className="neoh_fn_teampage">
         <section id="team">
           <div className="container">
             <p className="fn_desc fn_animated_text">
-              Voluntarii RUA sunt motorul proiectelor noastre. Prin fiecare gest de sprijin, fiecare zâmbet și fiecare oră oferită, contribuie la construirea unei comunități mai puternice și mai unite.
+              RUA volunteers are the driving force behind our projects. Through every act of support, every smile, and every hour they give, they help build a stronger and more united community.
             </p>
 
             {/* Team List Shortcode */}
