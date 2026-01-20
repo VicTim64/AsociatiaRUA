@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import styles from "./JoinNeoTechArmy.module.css";
 
-const JoinNeoTechArmy = () => {
+const EnJoinNeoTechArmy = () => {
   const [image, setImage] = useState(null);
   const canvasRef = useRef(null);
   const watermarkRef = useRef(null);
@@ -78,16 +78,16 @@ const JoinNeoTechArmy = () => {
       <div className="container">
         {/* Titlu */}
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Fii parte din mișcarea RUA!</h3>
+          <h3 className="fn_title">Be a part of our community!</h3>
         </div>
 
         {/* Chenar albastru centrat */}
         <div className={styles.uploadBox}>
           <p className={styles.explanation}>
-            Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
-            Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
-            Dacă nu-ți place previzualizarea, poți alege o altă poză.
-            Nu stocăm aceste poze nicăieri, așadar dacă reîncarci pagina va trebui să repeți procesul.
+          Upload your picture or take a selfie if you are on your phone, and we will add our watermark.
+You can then download it and use it as your profile picture on social platforms to support us.
+If you don’t like the preview, you can choose another picture.
+We do not store these pictures anywhere, so if you refresh the page, you will need to repeat the process.
           </p>
 
           {image ? (
@@ -95,10 +95,10 @@ const JoinNeoTechArmy = () => {
               <canvas ref={canvasRef} className={styles.canvas} />
               <div className={styles.buttonsContainer}>
                 <button className={styles.downloadButton} onClick={handleDownload}>
-                  Descarcă imaginea
+                  Download
                 </button>
                 <button className={styles.chooseAnotherButton} onClick={handleChooseAnother}>
-                  Alege altă imagine
+                  Choose another
                 </button>
               </div>
             </>
@@ -126,6 +126,6 @@ const JoinNeoTechArmy = () => {
   );
 };
 
-export default JoinNeoTechArmy;
+export default EnJoinNeoTechArmy;
 
 
