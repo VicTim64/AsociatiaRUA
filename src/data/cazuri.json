@@ -1,0 +1,34 @@
+[
+  {
+    "titlu": "Cazul Maria",
+    "descriere": [
+      "Maria are nevoie de sprijin pentru continuarea studiilor.",
+      "Familia ei se confruntă cu dificultăți materiale majore."
+    ],
+    "poze": [
+      { "src": "/img/cazuri/maria1.jpg", "position": "left" },
+      { "src": "/img/cazuri/maria2.jpg", "position": "right" }
+    ],
+    "slider": [
+      "/img/cazuri/slider/maria1.jpg",
+      "/img/cazuri/slider/maria2.jpg",
+      "/img/cazuri/slider/maria3.jpg"
+    ]
+  },
+  {
+    "titlu": "Cazul Ion",
+    "descriere": [
+      "Ion are nevoie de sprijin pentru locuință.",
+      "Se luptă cu condiții precare și lipsa utilităților."
+    ],
+    "poze": [
+      { "src": "/img/cazuri/ion1.jpg", "position": "left" },
+      { "src": "/img/cazuri/ion2.jpg", "position": "right" }
+    ],
+    "slider": [
+      "/img/cazuri/slider/ion1.jpg",
+      "/img/cazuri/slider/ion2.jpg",
+      "/img/cazuri/slider/ion3.jpg"
+    ]
+  }
+]
