@@ -1,0 +1,60 @@
+[
+{
+  "titlu": "ShoeBox Mureș",
+  "cazuri": [
+    {
+      "text": "În fiecare iarnă, un copil nu ar trebui să simtă frigul... nici în picioare, nici în inimă. Campania ShoeBox Mureș - Încalță un copil de Crăciun aduce încălțăminte și speranță pentru peste 1000 de copii din județul Mureș. Cu sprijinul oamenilor cu inimă mare și al comunității, pachetele ajung în familii care uneori nu ar avea nici măcar strictul necesar. Fiecare pereche de ghete este mai mult decât un obiect - este grijă, protecție și demnitate. Implicarea managerului de caz, voluntari, parteneri și donatori a transformat munca în povești de speranță: peste 1000 de copii încălțați, peste 1000 de suflete încălzite. Binele nu are nevoie de aplauze, doar de oameni care îl fac posibil.",
+      "poza": "/img/cazuri/shoebox/1.png",
+      "pozitie": "left"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/shoebox/slider/1.png",
+    "/img/cazuri/shoebox/slider/2.png",
+    "/img/cazuri/shoebox/slider/3.png",
+    "/img/cazuri/shoebox/slider/4.png",
+    "/img/cazuri/shoebox/slider/5.png",
+    "/img/cazuri/shoebox/slider/6.png",
+    "/img/cazuri/shoebox/slider/7.png",
+    "/img/cazuri/shoebox/slider/8.png",
+    "/img/cazuri/shoebox/slider/9.png"
+  ]
+},
+  {
+  "titlu": "Vizită la Ideciu",
+  "cazuri": [
+    {
+      "text": "Am pășit într-un loc unde timpul curge altfel: mai încet, mai tăcut, dar plin de povești nerostite. Privirile bunicilor ne-au povestit despre o viață întreagă: muncă, sacrificiu, ierni grele, bucurii simple și doruri ascunse. Oamenii aceștia nu cer multe – doar atenție, o vorbă bună, o mână strânsă cu căldură. Fiecare vizită aduce lumină în viețile lor: prezență, respect, demnitate și un strop de bucurie într-o zi obișnuită. 💛 Să ne amintim că fiecare zâmbet, fiecare rid și fiecare lacrimă ascunde o poveste. Datoria noastră ca oameni și comunitate este să fim aproape. Să nu îi uităm niciodată.",
+      "poza": "/img/cazuri/ideciu/1.png",
+      "pozitie": "right"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/ideciu/slider/1.png",
+    "/img/cazuri/ideciu/slider/2.png",
+    "/img/cazuri/ideciu/slider/3.png",
+    "/img/cazuri/ideciu/slider/4.png"
+  ]
+},
+  {
+  "titlu": "Școala din Senereuș",
+  "cazuri": [
+    {
+      "text": "Am pășit în Școala din Senereuș cu daruri în brațe și inimile pline de bucurie. Nu a fost doar o vizită – a fost o întâlnire cu copilăria pură, cu priviri care nu cer mult, dar care spun tot.\n\nÎntr-un loc în care nevoia se simte uneori doar în tăcere, Crăciunul a venit ca o rază de lumină: printr-o pereche de încălțări, printr-un pachet pregătit cu grijă, printr-un gest simplu care a spus: „Ești important. Contezi.”\n\nCopiii ne-au întâmpinat cu zâmbete mari și emoții sincere, iar voluntarii au făcut posibil fiecare gest de dăruire. Crăciunul adevărat nu este despre cât, ci despre a fi acolo exact când cineva are nevoie.\n\nMulțumim tuturor celor care au făcut acest drum posibil!",
+      "poza": "/img/cazuri/senereus/1.png",
+      "pozitie": "left"
+    }
+  ],
+  "slider": [
+    "/img/cazuri/senereus/slider/1.png",
+    "/img/cazuri/senereus/slider/2.png",
+    "/img/cazuri/senereus/slider/3.png",
+    "/img/cazuri/senereus/slider/4.png"
+  ]
+}
+
+
+
+  
+]
+
