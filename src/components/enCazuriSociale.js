@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import cazuriData from "@/data/encazuri.json";
 
-const CazuriSociale = () => {
+const EnCazuriSociale = () => {
   const [cazuri, setCazuri] = useState([]);
 
   useEffect(() => {
@@ -66,5 +66,5 @@ const CazuriSociale = () => {
   );
 };
 
-export default CazuriSociale;
+export default EnCazuriSociale;
 
