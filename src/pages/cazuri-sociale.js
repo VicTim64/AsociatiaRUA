@@ -12,31 +12,46 @@ const CazuriSocialePage = () => {
       />
 
       {/* Video sub titlu */}
-      <div className="neoh_fn_video">
-        <div className="bg_overlay">
-          <video
-            className="bg_video"
-            src="/img/MAAS/MAAS_movie.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            style={{ width: "100%", height: "100%", objectFit: "cover", cursor: "pointer" }}
-            onClick={() => setOpen(true)}
-          />
-        </div>
-        <div className="v_content">
-          <VideoPopupLocal
-            videoSrc="/img/MAAS/MAAS_movie.mp4"
-            trigger={<img src="svg/play.svg" alt="Play" className="fn__svg" />}
-          />
-        </div>
-      </div>
+      <VideoPopupLocal
+        videoSrc="/img/MAAS/MAAS_movie.mp4"
+        trigger={
+          <div className="neoh_fn_video">
+            <div className="bg_overlay">
+              <video
+                className="bg_video"
+                src="/img/MAAS/MAAS_movie.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  cursor: "pointer",
+                  borderRadius: "10px",
+                }}
+              />
+            </div>
+            <div className="v_content">
+              <img
+                src="svg/play.svg"
+                alt="Play"
+                className="fn__svg"
+                style={{ cursor: "pointer" }}
+              />
+            </div>
+          </div>
+        }
+      />
 
       <CazuriSociale />
     </Layout>
   );
 };
+
+export default CazuriSocialePage;
+
 
 export default CazuriSocialePage;
 
