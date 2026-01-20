@@ -76,6 +76,8 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
               src={videoSrc}
               controls
               autoPlay
+              playsInline
+              webkit-playsinline
               style={{
                 width: "100%",
                 maxWidth: "900px",
