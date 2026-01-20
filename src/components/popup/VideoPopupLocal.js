@@ -10,7 +10,16 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
       <div
         className="mfp-bg mfp-ready"
         onClick={() => close(false)}
-        style={{ cursor: "pointer" }}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
+          backgroundColor: "rgba(0,0,0,0.8)",
+          zIndex: 9999,
+          cursor: "pointer",
+        }}
       ></div>
 
       {/* Popup container */}
@@ -18,10 +27,16 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"
         tabIndex={-1}
         style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          overflow: "hidden auto",
+          zIndex: 10000,
+          overflow: "hidden",
         }}
       >
         <div className="mfp-container mfp-s-ready mfp-iframe-holder">
@@ -32,50 +47,48 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
               maxWidth: "90vw",
               maxHeight: "90vh",
               width: "100%",
-              height: "100%",
+              height: "auto",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              position: "relative",
             }}
           >
-            <div className="mfp-iframe-scaler" style={{ width: "100%", height: "100%" }}>
-              {/* Close button */}
-              <button
-                title="Close (Esc)"
-                type="button"
-                className="mfp-close"
-                onClick={() => close(false)}
-                style={{
-                  position: "absolute",
-                  top: "10px",
-                  right: "10px",
-                  zIndex: 1000,
-                  fontSize: "30px",
-                  background: "transparent",
-                  border: "none",
-                  color: "white",
-                  cursor: "pointer",
-                }}
-              >
-                ×
-              </button>
+            {/* Close button */}
+            <button
+              title="Close (Esc)"
+              type="button"
+              className="mfp-close"
+              onClick={() => close(false)}
+              style={{
+                position: "absolute",
+                top: "-40px",
+                right: "0",
+                fontSize: "30px",
+                background: "transparent",
+                border: "none",
+                color: "white",
+                cursor: "pointer",
+                zIndex: 10001,
+              }}
+            >
+              ×
+            </button>
 
-              {/* Video */}
-              <video
-                src={videoSrc}
-                controls
-                autoPlay
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  maxHeight: "90vh",
-                  borderRadius: "10px",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
+            {/* Video */}
+            <video
+              src={videoSrc}
+              controls
+              autoPlay
+              style={{
+                width: "100%",
+                maxWidth: "900px",
+                maxHeight: "80vh",
+                borderRadius: "10px",
+                objectFit: "contain",
+              }}
+            />
           </div>
-          <div className="mfp-preloader">Loading...</div>
         </div>
       </div>
     </Fragment>
@@ -97,4 +110,5 @@ const VideoPopupLocal = ({ videoSrc, trigger }) => {
 };
 
 export default VideoPopupLocal;
+
 
