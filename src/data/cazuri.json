@@ -30,5 +30,22 @@
       "/img/cazuri/slider/ion2.jpg",
       "/img/cazuri/slider/ion3.jpg"
     ]
+  },
+  {
+    "titlu": "Cazul Ana",
+    "descriere": [
+      "Ana are nevoie de sprijin pentru sănătate și medicamente.",
+      "Intervenim pentru a asigura tratamentele necesare și consiliere."
+    ],
+    "poze": [
+      { "src": "/img/cazuri/ana1.jpg", "position": "left" },
+      { "src": "/img/cazuri/ana2.jpg", "position": "right" }
+    ],
+    "slider": [
+      "/img/cazuri/slider/ana1.jpg",
+      "/img/cazuri/slider/ana2.jpg",
+      "/img/cazuri/slider/ana3.jpg"
+    ]
   }
 ]
+
