@@ -3,7 +3,7 @@ import { Fragment, useState } from "react";
 
 const VideoPopupLocal_ = ({ close, videoSrc }) => {
   const domNode = useClickOutside(() => close(false));
-
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   return (
     <Fragment>
       {/* Background overlay */}
@@ -79,11 +79,11 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
               playsInline
               webkit-playsinline
               style={{
-                width: "100%",
-                maxWidth: "900px",
-                maxHeight: "80vh",
-                borderRadius: "10px",
-                objectFit: "contain",
+              width: isMobile ? "95vw" : "100%",
+              maxWidth: "900px",
+              maxHeight: isMobile ? "60vh" : "80vh",
+              borderRadius: "10px",
+              objectFit: "contain",
               }}
             />
           </div>
