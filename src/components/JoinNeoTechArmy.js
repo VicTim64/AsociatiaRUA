@@ -16,15 +16,14 @@ const JoinNeoTechArmy = () => {
           const canvas = canvasRef.current;
           const ctx = canvas.getContext("2d");
 
-          // Calculate the cropping area
           const aspectRatio = img.width / img.height;
           let cropWidth, cropHeight;
           if (aspectRatio > 1) {
             cropHeight = img.height;
-            cropWidth = img.height; // square crop
+            cropWidth = img.height;
           } else {
             cropWidth = img.width;
-            cropHeight = img.width; // square crop
+            cropHeight = img.width;
           }
 
           const offsetX = (img.width - cropWidth) / 2;
@@ -33,13 +32,11 @@ const JoinNeoTechArmy = () => {
           canvas.width = 400;
           canvas.height = 400;
 
-          // Draw circular clipping
           ctx.beginPath();
           ctx.arc(canvas.width / 2, canvas.height / 2, canvas.width / 2, 0, Math.PI * 2);
           ctx.closePath();
           ctx.clip();
 
-          // Draw the cropped image
           ctx.drawImage(
             img,
             offsetX,
@@ -52,7 +49,6 @@ const JoinNeoTechArmy = () => {
             canvas.height
           );
 
-          // Draw watermark
           const watermark = watermarkRef.current;
           ctx.drawImage(watermark, 0, 0, canvas.width, canvas.height);
         };
@@ -80,13 +76,13 @@ const JoinNeoTechArmy = () => {
   return (
     <section id="join-rua">
       <div className="container">
-        {/* Titlu identic cu secțiunea „Împreună pentru binele comun!” */}
+        {/* Titlu */}
         <div className="neoh_fn_title">
           <h3 className="fn_title">Fii parte din mișcarea RUA!</h3>
         </div>
 
-        {/* Conținut centrat */}
-        <div className={styles.explanationWrapper}>
+        {/* Chenar albastru centrat */}
+        <div className={styles.uploadBox}>
           <p className={styles.explanation}>
             Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
             Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
@@ -95,7 +91,7 @@ const JoinNeoTechArmy = () => {
           </p>
 
           {image ? (
-            <div className={styles.previewContainer}>
+            <>
               <canvas ref={canvasRef} className={styles.canvas} />
               <div className={styles.buttonsContainer}>
                 <button className={styles.downloadButton} onClick={handleDownload}>
@@ -105,7 +101,7 @@ const JoinNeoTechArmy = () => {
                   Alege altă imagine
                 </button>
               </div>
-            </div>
+            </>
           ) : (
             <label className={styles.customFileUpload}>
               Alege fișier
@@ -131,4 +127,5 @@ const JoinNeoTechArmy = () => {
 };
 
 export default JoinNeoTechArmy;
+
 
