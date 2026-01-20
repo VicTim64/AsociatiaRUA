@@ -22,6 +22,7 @@ const CazuriSocialePage = () => {
             muted
             playsInline
             style={{ width: "100%", height: "100%", objectFit: "cover", cursor: "pointer" }}
+            onClick={() => setOpen(true)}
           />
         </div>
         <div className="v_content">
