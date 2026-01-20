@@ -30,7 +30,7 @@ const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
           position: "fixed",
           top: "50%",
           left: "50%",
-          transform: "translate(-50%, -35%)", // ✅ centrăm exact în viewport
+          transform: "translate(-50%, -30%)", // ✅ centrăm exact în viewport
           zIndex: 10000,
           maxWidth: "95vw",
           maxHeight: "95vh",
