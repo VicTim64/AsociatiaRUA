@@ -1,8 +1,3 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Autoplay } from "swiper/modules";
-import landing_infor from "@/data/landing.json";
-
 const WhyChooseUsComponent = () => {
   return (
     <section id="investor">
@@ -13,16 +8,16 @@ const WhyChooseUsComponent = () => {
 
         <Swiper
           className="neoh_fn_services"
-          modules={[Autoplay]}
+          modules={[Autoplay, FreeMode]}
           slidesPerView="auto"
           spaceBetween={40}
           loop={true}
+          loopAdditionalSlides={landing_infor.length}
           speed={6000}
           allowTouchMove={false}
           autoplay={{
             delay: 0,
             disableOnInteraction: false,
-            pauseOnMouseEnter: false,
           }}
           freeMode={{
             enabled: true,
@@ -57,3 +52,4 @@ const WhyChooseUsComponent = () => {
 };
 
 export default WhyChooseUsComponent;
+
