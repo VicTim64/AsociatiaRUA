@@ -53,6 +53,4 @@ const CazuriSocialePage = () => {
 export default CazuriSocialePage;
 
 
-export default CazuriSocialePage;
-
 
