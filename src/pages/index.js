@@ -4,7 +4,7 @@ import AboutComponent from "@components/AboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
  import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
-// import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
+ import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
 
 
@@ -216,7 +216,7 @@ const Index = () => {
          {/* <ServicesComponent isLoading={isLoading} /> */}
          {/* <Sponsors /> */}
           <WhyChooseUsComponent /> 
-         {/* <JoinNeoTechArmy /> */}
+          <JoinNeoTechArmy /> 
         </>
       )}
       <style jsx>{`
