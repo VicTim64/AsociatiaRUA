@@ -54,9 +54,8 @@ const WhyChooseUsComponent = () => {
           ))}
         </Swiper>
 
+
        
-    </section>
-  );
 };
 
 export default WhyChooseUsComponent;
