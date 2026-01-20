@@ -18,8 +18,8 @@
   {
     "titlu": "Cazul Ion",
     "descriere": [
-      "Ion are nevoie de sprijin pentru locuință.",
-      "Se luptă cu condiții precare și lipsa utilităților."
+      "Ion are nevoie de sprijin medical urgent.",
+      "Comunitatea a răspuns deja cu ajutoare inițiale."
     ],
     "poze": [
       { "src": "/img/cazuri/6.png", "position": "left" },
@@ -34,8 +34,8 @@
   {
     "titlu": "Cazul Ana",
     "descriere": [
-      "Ana are nevoie de sprijin pentru sănătate și medicamente.",
-      "Intervenim pentru a asigura tratamentele necesare și consiliere."
+      "Ana are nevoie de sprijin pentru locuință și educație.",
+      "Asociația RUA a început o campanie de strângere de fonduri."
     ],
     "poze": [
       { "src": "/img/cazuri/8.png", "position": "left" },
