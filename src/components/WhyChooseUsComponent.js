@@ -14,10 +14,11 @@ const WhyChooseUsComponent = () => {
         <Swiper
           className="neoh_fn_services"
           modules={[Autoplay]}
-          slidesPerView={4}
-          spaceBetween={40}
           loop={true}
-          speed={3000}
+          slidesPerView={4}
+          slidesPerGroup={1}   // ⭐ CHEIA
+          spaceBetween={40}
+          speed={800}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
@@ -49,5 +50,4 @@ const WhyChooseUsComponent = () => {
 };
 
 export default WhyChooseUsComponent;
-
 
