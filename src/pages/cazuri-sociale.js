@@ -7,8 +7,6 @@ import { Autoplay } from "swiper/modules";
 import jsonData from "@/data/cazuri.json";
 
 const CazuriSocialePage = () => {
-  const { titlu, cazuri, slider } = jsonData[0];
-
   return (
     <Layout pageName="Cazuri Sociale">
       <PageBanner
@@ -50,84 +48,101 @@ const CazuriSocialePage = () => {
         }
       />
 
-      {/* Titlu campanie */}
-      <div style={{ textAlign: "center", margin: "50px 0" }}>
-        <h2 style={{ color: "#00bfff", fontSize: "36px", fontWeight: "bold" }}>
-          {titlu}
-        </h2>
-      </div>
-
-      {/* Cazuri sociale */}
-      <div className="cazuri_sociale_wrapper">
-        {cazuri.map((item, index) => (
-          <div
-            key={index}
-            className={`caz_block ${item.pozitie === "left" ? "left" : "right"}`}
-            style={{
-              display: "flex",
-              flexDirection:
-                item.pozitie === "left" ? "row" : "row-reverse",
-              alignItems: "center",
-              marginBottom: "50px",
-              gap: "30px",
-              flexWrap: "wrap",
-            }}
-          >
-            <img
-              src={item.poza}
-              alt={`Poza ${index}`}
+      {/* TOATE campaniile din JSON */}
+      {jsonData.map((campanie, campIndex) => (
+        <div key={campIndex}>
+          {/* Titlu campanie */}
+          <div style={{ textAlign: "center", margin: "50px 0" }}>
+            <h2
               style={{
-                width: "45%",
-                maxWidth: "400px",
-                borderRadius: "10px",
-                objectFit: "cover",
-              }}
-            />
-            <p
-              style={{
-                width: "50%",
-                fontSize: "18px",
-                lineHeight: "1.6",
-                textAlign: "justify",
+                color: "#00bfff",
+                fontSize: "36px",
+                fontWeight: "bold",
               }}
             >
-              {item.text}
-            </p>
+              {campanie.titlu}
+            </h2>
           </div>
-        ))}
 
-        {/* Slider */}
-        <div style={{ marginTop: "50px" }}>
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={4}
-            loop={true}
-            modules={[Autoplay]}
-            autoplay={{ delay: 0, disableOnInteraction: false }}
-            freeMode={true}
-            speed={5000}
-            breakpoints={{
-              320: { slidesPerView: 1, spaceBetween: 10 },
-              480: { slidesPerView: 2, spaceBetween: 10 },
-              640: { slidesPerView: 2, spaceBetween: 10 },
-              768: { slidesPerView: 3, spaceBetween: 10 },
-              1024: { slidesPerView: 4, spaceBetween: 10 },
-            }}
-          >
-            {slider.map((img, key) => (
-              <SwiperSlide key={key}>
+          {/* Cazuri */}
+          <div className="cazuri_sociale_wrapper">
+            {campanie.cazuri.map((item, index) => (
+              <div
+                key={index}
+                className={`caz_block ${
+                  item.pozitie === "left" ? "left" : "right"
+                }`}
+                style={{
+                  display: "flex",
+                  flexDirection:
+                    item.pozitie === "left" ? "row" : "row-reverse",
+                  alignItems: "center",
+                  marginBottom: "50px",
+                  gap: "30px",
+                  flexWrap: "wrap",
+                }}
+              >
                 <img
-                  src={img}
-                  alt={`Slider ${key}`}
-                  style={{ width: "100%", borderRadius: "10px" }}
+                  src={item.poza}
+                  alt={`Poza ${index}`}
+                  style={{
+                    width: "45%",
+                    maxWidth: "400px",
+                    borderRadius: "10px",
+                    objectFit: "cover",
+                  }}
                 />
-              </SwiperSlide>
+                <p
+                  style={{
+                    width: "50%",
+                    fontSize: "18px",
+                    lineHeight: "1.6",
+                    textAlign: "justify",
+                  }}
+                >
+                  {item.text}
+                </p>
+              </div>
             ))}
-          </Swiper>
+
+            {/* Slider */}
+            <div style={{ marginTop: "50px" }}>
+              <Swiper
+                spaceBetween={10}
+                slidesPerView={4}
+                loop={true}
+                modules={[Autoplay]}
+                autoplay={{ delay: 0, disableOnInteraction: false }}
+                freeMode={true}
+                speed={5000}
+                breakpoints={{
+                  320: { slidesPerView: 1, spaceBetween: 10 },
+                  480: { slidesPerView: 2, spaceBetween: 10 },
+                  640: { slidesPerView: 2, spaceBetween: 10 },
+                  768: { slidesPerView: 3, spaceBetween: 10 },
+                  1024: { slidesPerView: 4, spaceBetween: 10 },
+                }}
+              >
+                {campanie.slider.map((img, key) => (
+                  <SwiperSlide key={key}>
+                    <img
+                      src={img}
+                      alt={`Slider ${key}`}
+                      style={{
+                        width: "100%",
+                        borderRadius: "10px",
+                      }}
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </div>
         </div>
-      </div>
+      ))}
     </Layout>
   );
 };
 
 export default CazuriSocialePage;
+
