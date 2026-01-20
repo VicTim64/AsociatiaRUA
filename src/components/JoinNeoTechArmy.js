@@ -70,7 +70,7 @@ const JoinNeoTechArmy = () => {
 
   const handleChooseAnother = () => {
     setImage(null);
-    canvasRef.current.getContext("2d").clearRect(0, 0, 400, 400);
+    canvasRef.current.getContext("2d").clearRect(0, 0, 800, 800);
   };
 
   return (
