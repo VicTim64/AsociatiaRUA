@@ -43,7 +43,7 @@ import { useCallback } from "react";
         {/* !Information Section */}
        
 
-{/* !Video Section */}
+{/* !Video Section 
         
         <section id="video">
           <div className="video_link">
@@ -53,7 +53,39 @@ import { useCallback } from "react";
             </video>
           </div>
         </section>
-         
+        */}
+  <VideoPopupLocal
+        videoSrc="/video/asocrua.mp4"
+        trigger={
+          <div className="neoh_fn_video">
+            <div className="bg_overlay">
+              <video
+                className="bg_video"
+                src="/video/asocrua.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  cursor: "pointer",
+                  borderRadius: "10px",
+                }}
+              />
+            </div>
+            <div className="v_content">
+              <img
+                src="svg/play.svg"
+                alt="Play"
+                className="fn__svg"
+                style={{ cursor: "pointer" }}
+              />
+            </div>
+          </div>
+        }
+      />
         
         {/* Team Section */}
         <section id="team">
