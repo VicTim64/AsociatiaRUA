@@ -95,7 +95,7 @@ const JoinNeoTechArmy = () => {
               <canvas ref={canvasRef} className={styles.canvas} />
               <div className={styles.buttonsContainer}>
                 <button className={styles.downloadButton} onClick={handleDownload}>
-                  Descarcă Imaginea
+                  Descarcă imaginea
                 </button>
                 <button className={styles.chooseAnotherButton} onClick={handleChooseAnother}>
                   Alege altă imagine
