@@ -1,20 +1,7 @@
-"use client";
-
-import dynamic from "next/dynamic";
-import landing_infor from "@/data/landing.json";
-
-const Swiper = dynamic(
-  () => import("swiper/react").then((mod) => mod.Swiper),
-  { ssr: false }
-);
-
-const SwiperSlide = dynamic(
-  () => import("swiper/react").then((mod) => mod.SwiperSlide),
-  { ssr: false }
-);
-
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, FreeMode } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
+import landing_infor from "@/data/landing.json";
 
 const WhyChooseUsComponent = () => {
   return (
@@ -25,37 +12,31 @@ const WhyChooseUsComponent = () => {
         </div>
 
         <Swiper
-          modules={[Autoplay, FreeMode]}
-          slidesPerView="auto"
+          className="neoh_fn_services"
+          modules={[Autoplay]}
+          slidesPerView={4}
           spaceBetween={40}
           loop={true}
-          loopAdditionalSlides={landing_infor.length}
-          speed={6000}
-          allowTouchMove={false}
+          speed={3000}
           autoplay={{
-            delay: 0,
+            delay: 2000,
             disableOnInteraction: false,
           }}
-          freeMode={{
-            enabled: true,
-            momentum: false,
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+            1280: { slidesPerView: 4 },
           }}
         >
           {landing_infor.map((item, index) => (
-            <SwiperSlide
-              key={index}
-              style={{
-                width: "200px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
+            <SwiperSlide key={index}>
               <img
                 src={`img/landing/${item.avatar}`}
                 alt="avatar"
                 style={{
-                  maxWidth: "100%",
+                  width: "100%",
+                  maxHeight: "200px",
                   objectFit: "contain",
                 }}
               />
@@ -68,4 +49,5 @@ const WhyChooseUsComponent = () => {
 };
 
 export default WhyChooseUsComponent;
+
 
