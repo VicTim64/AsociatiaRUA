@@ -80,8 +80,11 @@ const JoinNeoTechArmy = () => {
   };
 
   return (
+     <div className="neoh_fn_title">
+          <h3 className="fn_title">Împreună pentru binele comun!</h3>
+        </div>
     <div className={styles.container}>
-      <h3> Fii parte din mișcarea RUA !</h3> </br>
+      <h3> Fii parte din mișcarea RUA !</h3>
       <div className={styles.explanationContainer}>
         <p className={styles.explanation}>
 Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
@@ -95,13 +98,13 @@ Nu stocăm aceste poze nicăieri, așadar dacă reîncarci pagina va trebui să 
             <canvas ref={canvasRef} className={styles.canvas} />
             <div className={styles.buttonsContainer}>
               <button className={styles.downloadButton} onClick={handleDownload}>
-                Download Image
+                Descarcă Imaginea
               </button>
               <button
                 className={styles.chooseAnotherButton}
                 onClick={handleChooseAnother}
               >
-                Choose Another File
+                Alege altă imagine
               </button>
             </div>
           </div>
