@@ -145,4 +145,3 @@ const CazuriSocialePage = () => {
 };
 
 export default CazuriSocialePage;
-
