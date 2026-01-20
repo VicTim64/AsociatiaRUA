@@ -6,6 +6,11 @@ import AboutComponent from "@components/AboutComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
 // import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay, FreeMode } from "swiper/modules";
+import landing_infor from "@/data/landing.json";
+
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
