@@ -32,16 +32,27 @@ const Header = () => {
           <ul style={{ padding: "20px 0" }}>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/about">
-                <a style={linkStyle}>Despre Noi</a>
+                <a style={linkStyle}>About us</a>
               </Link>
-            </li>
+                  </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/voluntari">
-                <a style={linkStyle}>Voluntari</a>
-              </Link>
-            </li>
+              <Link legacyBehavior href="/encazuri-sociale">
+                <a style={linkStyle}>Social Cases</a>
+                    </Link>
+                    </li>
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/contact">
+                <a style={linkStyle}>Contact</a>
+              </Link>
+            </li>
+            </li>
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <Link legacyBehavior href="/envoluntari">
+                <a style={linkStyle}>Volunteers</a>
+              </Link>
+            </li>
+            <li className="menu-item" style={{ marginBottom: "30px" }}>
+              <Link legacyBehavior href="/encontact">
                 <a style={linkStyle}>Contact</a>
               </Link>
             </li>
@@ -130,11 +141,11 @@ const Header = () => {
                 border: "1px solid #fff",
               }}
               onClick={() => {
-                window.location.href = "/en"; // link către versiunea engleză
+                window.location.href = "/index"; // link către versiunea engleză
               }}
             >
               <img
-                src="/img/flags/us.png"
+                src="/img/flags/ro.png"
                 alt="English"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
