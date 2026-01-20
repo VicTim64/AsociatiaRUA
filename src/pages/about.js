@@ -3,6 +3,7 @@ import PageBanner from "@/layout/PageBanner";
 import TeamInfor from "@/data/team_infor.json";
 import Link from "next/link";
 import { useCallback } from "react";
+import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 
  const DespreNoi = () => {
   const handleVideoClick = useCallback((event) => {
