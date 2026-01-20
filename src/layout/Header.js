@@ -6,12 +6,13 @@ const Header = () => {
 
   return (
     <Fragment>
-      {/* Right Navigation */}
+      {/* Right Navigation Overlay */}
       <div
         className={`nav_overlay ${toggle ? "go" : ""}`}
         onClick={() => setToggle(false)}
       />
 
+      {/* Right Navigation */}
       <div className={`neoh_fn_nav ${toggle ? "go" : ""}`}>
         <div
           className="trigger is-active"
@@ -34,39 +35,11 @@ const Header = () => {
                 <a style={linkStyle}>Despre Noi</a>
               </Link>
             </li>
-
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/voluntari">
                 <a style={linkStyle}>Voluntari</a>
               </Link>
             </li>
-
-            {/*
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/dayone">
-                <a style={linkStyle}>Day One Panel</a>
-              </Link>
-            </li>
-
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <Link legacyBehavior href="/daytwo">
-                <a style={linkStyle}>Day Two Panel</a>
-              </Link>
-            </li>
-
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <a href="/TwsBrochure.pdf" target="_blank" style={linkStyle}>
-                Brochure
-              </a>
-            </li>
-
-            <li className="menu-item" style={{ marginBottom: "30px" }}>
-              <a href="/PastSpeakers.pdf" target="_blank" style={linkStyle}>
-                Past Speakers
-              </a>
-            </li>
-            */}
-
             <li className="menu-item" style={{ marginBottom: "30px" }}>
               <Link legacyBehavior href="/contact">
                 <a style={linkStyle}>Contact</a>
@@ -82,7 +55,6 @@ const Header = () => {
               Copyright {new Date().getFullYear()} rua.ro
             </p>
           </div>
-
           <div className="nf_right">
             <div className="neoh_fn_social_list">
               <ul>
@@ -105,9 +77,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        {/* !Nav Footer */}
       </div>
-      {/* !Right Navigation */}
 
       {/* Header */}
       <header className="neoh_fn_header">
@@ -124,30 +94,50 @@ const Header = () => {
           <div className="logo">
             <Link legacyBehavior href="/">
               <a>
-               <img
-                src="/img/menu/logo.png"
-                alt="Logo"
-                width="150"
-                height="30"
-         style={{
-                objectFit: "contain",
-                display: "block",
-                }}
-          />
+                <img
+                  src="/img/menu/logo.png"
+                  alt="Logo"
+                  width="150"
+                  height="30"
+                  style={{ objectFit: "contain", display: "block" }}
+                />
               </a>
             </Link>
           </div>
 
-          {/* Sandwich Menu */}
-          <div className="trigger" style={{ marginLeft: "auto" }}>
+          {/* Sandwich Menu + US Flag */}
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            {/* Sandwich Menu */}
+            <div className="trigger" style={{ cursor: "pointer" }}>
+              <div
+                className="trigger_in"
+                onClick={() => setToggle(!toggle)}
+              >
+                <a>
+                  <img src="/img/menu/menu.png" alt="Menu" />
+                </a>
+              </div>
+            </div>
+
+            {/* US Flag */}
             <div
-              className="trigger_in"
-              onClick={() => setToggle(!toggle)}
-              style={{ cursor: "pointer" }}
+              style={{
+                width: "40px",
+                height: "40px",
+                borderRadius: "5px",
+                overflow: "hidden",
+                cursor: "pointer",
+                border: "1px solid #fff",
+              }}
+              onClick={() => {
+                window.location.href = "/en"; // link către versiunea engleză
+              }}
             >
-              <a>
-                <img src="/img/menu/menu.png" alt="Menu" />
-              </a>
+              <img
+                src="/img/flags/us.png"
+                alt="English"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
             </div>
           </div>
         </div>
