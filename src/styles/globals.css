@@ -1,100 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Container general */
-.cazuri_sociale {
-  background-color: #000;
-  color: #fff;
-  padding: 80px 0;
-  font-family: "Arial", sans-serif;
-}
-
-/* Titlu principal */
-.cazuri_sociale .fn_title {
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 60px;
-}
-
-/* Subtitlu caz */
-.cazuri_sociale .fn_subtitle {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  text-align: center;
-  color: #00aaff; /* accent albastru ca la Index */
-}
-
-/* Rând poze + text */
 .caz_row {
   display: flex;
+  gap: 20px;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-  flex-wrap: wrap; /* pentru mobil */
+  margin: 40px 0;
 }
 
-/* Imagine caz */
+.caz_row.left {
+  flex-direction: row;
+}
+
+.caz_row.right {
+  flex-direction: row-reverse;
+}
+
 .caz_row img {
   width: 50%;
-  border-radius: 12px;
-  object-fit: cover;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 
-.caz_row img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
-}
-
-/* Text caz */
-.caz_row div {
+.caz_text {
   width: 50%;
+  color: white;
 }
 
-/* Paragraf */
-.caz_row div p {
-  line-height: 1.6;
-  font-size: 16px;
-  margin-bottom: 12px;
-}
-
-/* Slider caz */
-.caz_sociale_slider {
-  margin-top: 30px;
-}
-
-.swiper-slide img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
-}
-
-.swiper-slide img:hover {
-  transform: scale(1.05);
-}
-
-/* Responsive */
 @media screen and (max-width: 768px) {
   .caz_row {
     flex-direction: column !important;
   }
+
   .caz_row img,
-  .caz_row div {
+  .caz_text {
     width: 100%;
-  }
-  .caz_sociale_slider {
-    margin-top: 20px;
-  }
-  .cazuri_sociale .fn_title {
-    font-size: 36px;
-  }
-  .cazuri_sociale .fn_subtitle {
-    font-size: 26px;
   }
 }
