@@ -1,7 +1,7 @@
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
-import jsonData from "@/data/cazuriSociale.json"; // importă JSON-ul corect
+import jsonData from "@/data/cazuri.json"; // importă JSON-ul corect
 
 const CazuriSocialePage = () => {
   return (
