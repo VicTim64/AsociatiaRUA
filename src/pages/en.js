@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import Layout from "@/layout/Layout";
-import AboutComponent from "@components/AboutComponent";
+import enAboutComponent from "@components/AboutComponent";
 // import ServicesComponent from "@components/ServicesComponent";
- import WhyChooseUsComponent from "@components/WhyChooseUsComponent";
+ import enWhyChooseUsComponent from "@components/WhyChooseUsComponent";
 // import RoadmapComponent from "@/components/RoadmapComponent";
- import JoinNeoTechArmy from "@components/JoinNeoTechArmy";
+ import enJoinNeoTechArmy from "@components/JoinNeoTechArmy";
 // import Sponsors from "@components/Sponsors";
 
 
@@ -212,11 +212,11 @@ const Index = () => {
 
           {/* Sections */}
           {/* <RoadmapComponent />*/}
-         <AboutComponent />
+         <enAboutComponent />
          {/* <ServicesComponent isLoading={isLoading} /> */}
          {/* <Sponsors /> */}
-          <WhyChooseUsComponent /> 
-          <JoinNeoTechArmy /> 
+          <enWhyChooseUsComponent /> 
+          <enJoinNeoTechArmy /> 
         </>
       )}
       <style jsx>{`
