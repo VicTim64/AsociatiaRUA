@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Footer = () => {
+const EnFooter = () => {
   return (
     <footer id="footer">
       <div className="neoh_fn_footer">
@@ -97,14 +97,14 @@ const Footer = () => {
           <div className="container">
             <div className="fb_in">
              
-              <a className="originTextColor" href="/about">
-                Despre Noi
+              <a className="originTextColor" href="/enabout">
+                About us
               </a>
-             <a className="originTextColor" href="/voluntari">
-                Voluntari
+             <a className="originTextColor" href="/envoluntari">
+                Volunteers
               </a>
             
-              <a className="originTextColor" href="/contact">
+              <a className="originTextColor" href="/encontact">
                 Contact
               </a>
           
@@ -124,4 +124,4 @@ const Footer = () => {
     </footer>
   );
 };
-export default Footer;
+export default EnFooter;
