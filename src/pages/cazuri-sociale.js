@@ -1,12 +1,9 @@
-import { useState } from "react";
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 import CazuriSociale from "@/components/CazuriSociale";
-import VideoPopup from "@/components/popup/VideoPopup";
+import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 
 const CazuriSocialePage = () => {
-  const [videoOpen, setVideoOpen] = useState(false);
-
   return (
     <Layout pageName="Cazuri Sociale">
       <PageBanner
@@ -25,29 +22,15 @@ const CazuriSocialePage = () => {
             muted
             playsInline
             style={{ width: "100%", height: "100%", objectFit: "cover", cursor: "pointer" }}
-            onClick={() => setVideoOpen(true)}
           />
         </div>
         <div className="v_content">
-          <img
-            src="svg/play.svg"
-            alt=""
-            className="fn__svg"
-            style={{ cursor: "pointer" }}
-            onClick={() => setVideoOpen(true)}
+          <VideoPopupLocal
+            videoSrc="/video/cazuri_video.mp4"
+            trigger={<img src="svg/play.svg" alt="Play" className="fn__svg" />}
           />
         </div>
       </div>
-
-      {/* Popup video */}
-      {videoOpen && (
-        <VideoPopup
-          videoSrc="/video/cazuri_video.mp4"
-          isOpen={videoOpen}
-          onClose={() => setVideoOpen(false)}
-          autoPlay={true} // cu sunet
-        />
-      )}
 
       <CazuriSociale />
     </Layout>
@@ -55,4 +38,5 @@ const CazuriSocialePage = () => {
 };
 
 export default CazuriSocialePage;
+
 
