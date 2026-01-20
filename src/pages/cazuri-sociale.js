@@ -1,7 +1,7 @@
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
-import CazuriSociale from "@/components/CazuriSociale";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
+import jsonData from "@/data/cazuriSociale.json"; // importă JSON-ul corect
 
 const CazuriSocialePage = () => {
   return (
@@ -45,12 +45,47 @@ const CazuriSocialePage = () => {
         }
       />
 
-      <CazuriSociale />
+      {/* Cazuri sociale */}
+      <div className="cazuri_sociale_wrapper">
+        {jsonData.cazuri.map((item, index) => (
+          <div
+            key={index}
+            className={`caz_block ${item.pozitie === "left" ? "left" : "right"}`}
+            style={{
+              display: "flex",
+              flexDirection:
+                item.pozitie === "left" ? "row" : "row-reverse",
+              alignItems: "center",
+              marginBottom: "50px", // spacing între blocuri
+              gap: "20px",
+              flexWrap: "wrap",
+            }}
+          >
+            <img
+              src={item.poza}
+              alt={`Poza ${index}`}
+              style={{
+                width: "45%",
+                maxWidth: "400px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                width: "50%",
+                fontSize: "18px",
+                lineHeight: "1.6",
+                textAlign: "justify",
+              }}
+            >
+              {item.text}
+            </p>
+          </div>
+        ))}
+      </div>
     </Layout>
   );
 };
 
 export default CazuriSocialePage;
-
-
 
