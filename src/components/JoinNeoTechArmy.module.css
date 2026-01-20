@@ -4,30 +4,35 @@
   padding: 60px 20px;
 }
 
-.explanationWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* CENTRARE orizontală */
+/* Titlul secțiunii */
+.neoh_fn_title {
   text-align: center;
-  margin-top: 40px; /* spațiu față de titlu */
+  margin-bottom: 40px;
 }
 
+/* Chenar albastru pentru upload + canvas + butoane */
+.uploadBox {
+  background-color: #007bff; /* albastru */
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Text explicativ */
 .explanation {
   font-size: 16px;
   line-height: 1.5;
   max-width: 600px;
-  margin-bottom: 30px;
-  color: #333;
+  color: #fff;
+  margin: 0;
 }
 
-.previewContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centrăm canvas-ul și butoanele */
-  gap: 20px;           /* spațiu între canvas și butoane */
-  margin-top: 20px;
-}
-
+/* Canvas circular */
 .canvas {
   border-radius: 50%;
   width: 400px;
@@ -36,17 +41,19 @@
   background-color: #f0f0f0;
 }
 
+/* Container butoane */
 .buttonsContainer {
   display: flex;
-  gap: 10px;
-  justify-content: center; /* butoanele centrate */
+  gap: 15px;
+  justify-content: center;
 }
 
+/* Butoane albe cu text albastru */
 .downloadButton,
 .chooseAnotherButton,
 .customFileUpload {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #fff;
+  color: #007bff;
   border: none;
   padding: 12px 25px;
   font-size: 16px;
@@ -58,18 +65,16 @@
 .downloadButton:hover,
 .chooseAnotherButton:hover,
 .customFileUpload:hover {
-  background-color: #218838;
+  background-color: #e6e6e6;
 }
 
-.customFileUpload {
-  display: inline-block;
-  margin-top: 20px;
-}
-
+/* Input ascuns pentru custom upload */
 .hiddenInput {
   display: none;
 }
 
+/* Watermark invizibil */
 .hidden {
   display: none;
 }
+
