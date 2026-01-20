@@ -21,15 +21,9 @@ const CazuriSociale = () => {
             <h3 className="fn_subtitle">{caz.titlu}</h3>
 
             {caz.poze.map((poza, pidx) => (
-              <div
-                key={pidx}
-                className={`caz_row ${poza.position}`}
-              >
-                <img
-                  src={poza.src}
-                  alt={`${caz.titlu} - poza ${pidx + 1}`}
-                />
-                <div>
+              <div key={pidx} className={`caz_row ${poza.position}`}>
+                <img src={poza.src} alt={`${caz.titlu} - poza ${pidx + 1}`} />
+                <div className="caz_text">
                   {caz.descriere.map((p, didx) => (
                     <p key={didx}>{p}</p>
                   ))}
@@ -40,26 +34,26 @@ const CazuriSociale = () => {
             {caz.slider && caz.slider.length > 0 && (
               <Swiper
                 className="caz_sociale_slider"
-                spaceBetween={10}
-                slidesPerView={3}
+                spaceBetween={1}
+                slidesPerView={8}
                 loop={true}
-                autoplay={{ delay: 2000, disableOnInteraction: false }}
-                freeMode={true}
-                speed={3000}
                 modules={[Autoplay]}
+                autoplay={{ delay: 0, disableOnInteraction: false }}
+                freeMode={true}
+                speed={5000}
                 breakpoints={{
-                  320: { slidesPerView: 1, spaceBetween: 10 },
-                  480: { slidesPerView: 2, spaceBetween: 15 },
-                  768: { slidesPerView: 3, spaceBetween: 20 },
-                  1024: { slidesPerView: 4, spaceBetween: 25 },
+                  320: { slidesPerView: 1, spaceBetween: 20 },
+                  400: { slidesPerView: 1, spaceBetween: 40 },
+                  480: { slidesPerView: 1, spaceBetween: 40 },
+                  640: { slidesPerView: 2, spaceBetween: 40 },
+                  768: { slidesPerView: 2, spaceBetween: 50 },
+                  1024: { slidesPerView: 3, spaceBetween: 50 },
+                  1280: { slidesPerView: 3, spaceBetween: 50 },
                 }}
               >
                 {caz.slider.map((s, sidx) => (
                   <SwiperSlide key={sidx}>
-                    <img
-                      src={s}
-                      alt={`${caz.titlu} slider ${sidx + 1}`}
-                    />
+                    <img src={s} alt={`${caz.titlu} slider ${sidx + 1}`} />
                   </SwiperSlide>
                 ))}
               </Swiper>
