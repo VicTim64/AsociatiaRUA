@@ -4,13 +4,13 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-import jsonData from "@/data/cazuri.json";
+import jsonData from "@/data/encazuri.json";
 
-const CazuriSocialePage = () => {
+const EnCazuriSocialePage = () => {
   return (
-    <Layout pageName="Cazuri Sociale">
+    <Layout pageName="EN Cazuri Sociale">
       <PageBanner
-        pageName="Cazuri Sociale"
+        pageName="EN Cazuri Sociale"
         imageURL="img/hero/head_about_background.png"
       />
 
@@ -144,4 +144,4 @@ const CazuriSocialePage = () => {
   );
 };
 
-export default CazuriSocialePage;
+export default EnCazuriSocialePage;
