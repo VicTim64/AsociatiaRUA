@@ -3,7 +3,7 @@ import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import jsonData from "@/data/cazuri.json"; // importă JSON-ul corect
 
-const CazuriSocialePage = () => {
+const CazuriSociale = () => {
   return (
     <Layout pageName="Cazuri Sociale">
       <PageBanner
@@ -87,5 +87,5 @@ const CazuriSocialePage = () => {
   );
 };
 
-export default CazuriSocialePage;
+export default CazuriSociale;
 
