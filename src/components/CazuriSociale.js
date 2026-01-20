@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import cazuriData from "@/data/cazuri.json";
+import VideoPopup from "./popup/VideoPopup";
 
 const CazuriSociale = () => {
   const [cazuri, setCazuri] = useState([]);
@@ -22,7 +23,10 @@ const CazuriSociale = () => {
 
             {caz.poze.map((poza, pidx) => (
               <div key={pidx} className={`caz_row ${poza.position}`}>
-                <img src={poza.src} alt={`${caz.titlu} - poza ${pidx + 1}`} />
+                <img
+                  src={poza.src}
+                  alt={`${caz.titlu} - poza ${pidx + 1}`}
+                />
                 <div className="caz_text">
                   {caz.descriere.map((p, didx) => (
                     <p key={didx}>{p}</p>
@@ -43,8 +47,6 @@ const CazuriSociale = () => {
                 speed={5000}
                 breakpoints={{
                   320: { slidesPerView: 1, spaceBetween: 20 },
-                  400: { slidesPerView: 1, spaceBetween: 40 },
-                  480: { slidesPerView: 1, spaceBetween: 40 },
                   640: { slidesPerView: 2, spaceBetween: 40 },
                   768: { slidesPerView: 2, spaceBetween: 50 },
                   1024: { slidesPerView: 3, spaceBetween: 50 },
@@ -66,4 +68,5 @@ const CazuriSociale = () => {
 };
 
 export default CazuriSociale;
+
 
