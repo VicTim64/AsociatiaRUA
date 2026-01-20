@@ -80,9 +80,7 @@ const JoinNeoTechArmy = () => {
   };
 
   return (
-     <div className="neoh_fn_title">
-          <h3 className="fn_title">Împreună pentru binele comun!</h3>
-        </div>
+   
     <div className={styles.container}>
       <h3> Fii parte din mișcarea RUA !</h3>
       <div className={styles.explanationContainer}>
