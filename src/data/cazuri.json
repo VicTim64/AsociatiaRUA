@@ -1,25 +1,23 @@
 [
-  {
-    "titlu": "ShoeBox Mureș",
-    "descriere": [
-      "În fiecare iarnă, un copil nu ar trebui să simtă frigul… nici în picioare, nici în inimă.
-Campania ShoeBox Mureș – Încalță un copil de Crăciun, aduce încălțăminte și speranță pentru peste 1000 de copii din județul Mureș.",
-      "Cu sprijinul oamenilor cu inimă mare și al comunității, pachetele ajung în familii care uneori nu ar avea nici măcar strictul necesar.
-Fiecare pereche de ghete este mai mult decât un obiect – este grijă, protecție și demnitate.",
-      "Implicarea managerului de caz, voluntari, parteneri și donatori a transformat munca în povești de speranță: peste 1000 de copii încălțați, peste 1000 de suflete încălzite.
-Binele nu are nevoie de aplauze, doar de oameni care îl fac posibil."
-    ],
-    "poze": [
-      { "src": "/img/cazuri/2.png", "position": "left" },
-      { "src": "/img/cazuri/2.png", "position": "right" },
-      { "src": "/img/cazuri/2.png", "position": "left" }
-    ],
-    "slider": [
-      "/img/cazuri/slider/2.png",
-      "/img/cazuri/slider/2.png",
-      "/img/cazuri/slider/2.png"
-    ]
-  },
+{
+  "titlu": "ShoeBox Mures",
+  "descriere": [
+    "In fiecare iarna, un copil nu ar trebui sa simta frigul... nici in picioare, nici in inima. Campania ShoeBox Mures - Incalta un copil de Craciun aduce incaltaminte si speranta pentru peste 1000 de copii din judetul Mures.",
+    "Cu sprijinul oamenilor cu inima mare si al comunitatii, pachetele ajung in familii care uneori nu ar avea nici macar strictul necesar. Fiecare pereche de ghete este mai mult decat un obiect - este grija, protectie si demnitate.",
+    "Implicarea managerului de caz, voluntari, parteneri si donatori a transformat munca in povesti de speranta: peste 1000 de copii incaltati, peste 1000 de suflete incalzite. Binele nu are nevoie de aplauze, doar de oameni care il fac posibil."
+  ],
+  "poze": [
+    { "src": "/img/cazuri/2.png", "position": "left" },
+    { "src": "/img/cazuri/2.png", "position": "right" },
+    { "src": "/img/cazuri/2.png", "position": "left" }
+  ],
+  "slider": [
+    "/img/cazuri/slider/2.png",
+    "/img/cazuri/slider/2.png",
+    "/img/cazuri/slider/2.png"
+  ]
+}
+
   {
     "titlu": "Cazul Ion",
     "descriere": [
