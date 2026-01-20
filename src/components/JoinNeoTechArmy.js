@@ -85,8 +85,8 @@ const JoinNeoTechArmy = () => {
           <h3 className="fn_title">Fii parte din mișcarea RUA!</h3>
         </div>
 
-        {/* Conținutul principal */}
-        <div className={styles.explanationContainer}>
+        {/* Conținut centrat */}
+        <div className={styles.explanationWrapper}>
           <p className={styles.explanation}>
             Încarcă poza ta sau fă un selfie dacă ești pe telefon, iar noi vom adăuga watermark-ul nostru.
             Apoi o poți descărca și folosi ca poză de profil pe platformele sociale pentru a ne susține.
