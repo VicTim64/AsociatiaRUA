@@ -26,7 +26,7 @@ const WhyChooseUsComponent = () => {
     <section id="investor">
       <div className="container">
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Always reaching new heights</h3>
+          <h3 className="fn_title">Împreună pentru binele comun!</h3>
         </div>
         <Swiper
           className="neoh_fn_services"
