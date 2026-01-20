@@ -4,7 +4,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import landing_infor from "@/data/landing.json";
 // import partners_infor from "@/data/partners.json";
 
-const WhyChooseUsComponent = () => {
+const EnWhyChooseUsComponent = () => {
   // Define styles for the logo container and the image itself
   const logoContainerStyles = {
     width: "200px",
@@ -26,7 +26,7 @@ const WhyChooseUsComponent = () => {
     <section id="investor">
       <div className="container">
         <div className="neoh_fn_title">
-          <h3 className="fn_title">Împreună pentru binele comun!</h3>
+          <h3 className="fn_title">Together for the common good!</h3>
         </div>
 
         <Swiper
@@ -91,4 +91,4 @@ const WhyChooseUsComponent = () => {
   );
 };
 
-export default WhyChooseUsComponent;
+export default EnWhyChooseUsComponent;
