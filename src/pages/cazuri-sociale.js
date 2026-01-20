@@ -1,10 +1,13 @@
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
 import jsonData from "@/data/cazuri.json";
 
 const CazuriSocialePage = () => {
-  const { titlu, cazuri } = jsonData[0];
+  const { titlu, cazuri, slider } = jsonData[0];
 
   return (
     <Layout pageName="Cazuri Sociale">
@@ -92,11 +95,39 @@ const CazuriSocialePage = () => {
             </p>
           </div>
         ))}
+
+        {/* Slider */}
+        <div style={{ marginTop: "50px" }}>
+          <Swiper
+            spaceBetween={10}
+            slidesPerView={4}
+            loop={true}
+            modules={[Autoplay]}
+            autoplay={{ delay: 0, disableOnInteraction: false }}
+            freeMode={true}
+            speed={5000}
+            breakpoints={{
+              320: { slidesPerView: 1, spaceBetween: 10 },
+              480: { slidesPerView: 2, spaceBetween: 10 },
+              640: { slidesPerView: 2, spaceBetween: 10 },
+              768: { slidesPerView: 3, spaceBetween: 10 },
+              1024: { slidesPerView: 4, spaceBetween: 10 },
+            }}
+          >
+            {slider.map((img, key) => (
+              <SwiperSlide key={key}>
+                <img
+                  src={img}
+                  alt={`Slider ${key}`}
+                  style={{ width: "100%", borderRadius: "10px" }}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </Layout>
   );
 };
 
 export default CazuriSocialePage;
-
-
