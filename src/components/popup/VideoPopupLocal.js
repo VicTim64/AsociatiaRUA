@@ -28,14 +28,15 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
         tabIndex={-1}
         style={{
           position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100vw",
-          height: "100vh",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)", // ✅ centrăm exact în viewport
+          zIndex: 10000,
+          maxWidth: "95vw",
+          maxHeight: "95vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          zIndex: 10000,
           overflow: "hidden",
         }}
       >
@@ -44,13 +45,8 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
             className="mfp-content"
             ref={domNode}
             style={{
-              maxWidth: "90vw",
-              maxHeight: "90vh",
               width: "100%",
-              height: "auto",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              height: "100%",
               position: "relative",
             }}
           >
@@ -100,15 +96,13 @@ const VideoPopupLocal = ({ videoSrc, trigger }) => {
 
   return (
     <>
-      {/* Trigger */}
       <div onClick={() => setOpen(true)}>{trigger}</div>
-
-      {/* Popup */}
       {open && <VideoPopupLocal_ close={() => setOpen(false)} videoSrc={videoSrc} />}
     </>
   );
 };
 
 export default VideoPopupLocal;
+
 
 
