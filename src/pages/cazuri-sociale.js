@@ -1,9 +1,12 @@
 import Layout from "@/layout/Layout";
 import PageBanner from "@/layout/PageBanner";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
-import jsonData from "@/data/cazuri.json"; // importă JSON-ul corect
+import jsonData from "@/data/cazuri.json";
 
-const CazuriSociale = () => {
+const CazuriSocialePage = () => {
+  // Extragem cazurile din primul obiect JSON
+  const { cazuri } = jsonData[0];
+
   return (
     <Layout pageName="Cazuri Sociale">
       <PageBanner
@@ -47,7 +50,7 @@ const CazuriSociale = () => {
 
       {/* Cazuri sociale */}
       <div className="cazuri_sociale_wrapper">
-        {jsonData.cazuri.map((item, index) => (
+        {cazuri.map((item, index) => (
           <div
             key={index}
             className={`caz_block ${item.pozitie === "left" ? "left" : "right"}`}
@@ -56,8 +59,8 @@ const CazuriSociale = () => {
               flexDirection:
                 item.pozitie === "left" ? "row" : "row-reverse",
               alignItems: "center",
-              marginBottom: "50px", // spacing între blocuri
-              gap: "20px",
+              marginBottom: "50px",
+              gap: "30px",
               flexWrap: "wrap",
             }}
           >
@@ -68,6 +71,7 @@ const CazuriSociale = () => {
                 width: "45%",
                 maxWidth: "400px",
                 borderRadius: "10px",
+                objectFit: "cover",
               }}
             />
             <p
@@ -87,5 +91,6 @@ const CazuriSociale = () => {
   );
 };
 
-export default CazuriSociale;
+export default CazuriSocialePage;
+
 
