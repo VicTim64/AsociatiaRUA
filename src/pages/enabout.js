@@ -5,16 +5,16 @@ import Link from "next/link";
 import { useCallback } from "react";
 import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 
- const DespreNoi = () => {
+ const enDespreNoi = () => {
   const handleVideoClick = useCallback((event) => {
     event.preventDefault();
     window.open("https://www.youtube.com/watch?v=wftgJqrGKR8", "_blank");
   }, []); 
 
   return (
-    <Layout pageName={"DespreNoi"}>
+    <Layout pageName={"enDespreNoi"}>
       <PageBanner
-        pageName={"DespreNoi"}
+        pageName={"enDespreNoi"}
         imageURL={"img/hero/head_about_background.png"}
       />
       <div className="neoh_fn_aboutpage">
@@ -95,7 +95,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
               <h3 className="fn_title">Echipa RUA</h3>
             </div>
             <p className="fn_desc fn_animated_text">
-            RUA este o organizație construită în jurul unor oameni care cred în responsabilitate, colaborare și implicare pe termen lung. Activitatea noastră se bazează pe planificare, parteneriate și acțiuni bine coordonate, menite să răspundă eficient provocărilor sociale locale.
+            RUA is an organization built around people who believe in responsibility, collaboration, and long-term involvement. Our activity is based on planning, partnerships, and well-coordinated actions designed to respond effectively to local social challenges.
             </p>
             <div className="neoh_fn_team">
               <ul className="team_list">
@@ -141,8 +141,8 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
               <h3 className="fn_title">RUA Diaspora</h3>
             </div>
             <p className="fn_desc fn_animated_text">
-            Echipa RUA Diaspora este formată din oameni care, deși trăiesc în afara României, aleg să rămână implicați în viața comunităților de acasă.
-Prin sprijin și implicare activă, diaspora devine o punte între experiența acumulată în afara țării și nevoile reale din România. Pentru noi, distanța nu înseamnă absență.
+            The RUA Diaspora team is made up of people who, although living outside Romania, choose to remain involved in the life of communities back home.
+Through support and active involvement, the diaspora becomes a bridge between the experience gained abroad and the real needs in Romania. For us, distance does not mean absence.
             </p>
             <div className="neoh_fn_team">
               <ul className="team_list">
@@ -218,4 +218,4 @@ Prin sprijin și implicare activă, diaspora devine o punte între experiența a
   );
 };
 
-export default DespreNoi;
+export default enDespreNoi;
