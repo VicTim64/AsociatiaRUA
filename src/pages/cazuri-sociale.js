@@ -4,8 +4,7 @@ import VideoPopupLocal from "@/components/popup/VideoPopupLocal";
 import jsonData from "@/data/cazuri.json";
 
 const CazuriSocialePage = () => {
-  // Extragem cazurile din primul obiect JSON
-  const { cazuri } = jsonData[0];
+  const { titlu, cazuri } = jsonData[0];
 
   return (
     <Layout pageName="Cazuri Sociale">
@@ -47,6 +46,13 @@ const CazuriSocialePage = () => {
           </div>
         }
       />
+
+      {/* Titlu campanie */}
+      <div style={{ textAlign: "center", margin: "50px 0" }}>
+        <h2 style={{ color: "#00bfff", fontSize: "36px", fontWeight: "bold" }}>
+          {titlu}
+        </h2>
+      </div>
 
       {/* Cazuri sociale */}
       <div className="cazuri_sociale_wrapper">
