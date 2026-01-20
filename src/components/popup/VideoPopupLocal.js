@@ -30,7 +30,7 @@ const VideoPopupLocal_ = ({ close, videoSrc }) => {
           position: "fixed",
           top: "50%",
           left: "50%",
-          transform: "translate(-50%, -40%)", // ✅ centrăm exact în viewport
+          transform: "translate(-50%, -35%)", // ✅ centrăm exact în viewport
           zIndex: 10000,
           maxWidth: "95vw",
           maxHeight: "95vh",
