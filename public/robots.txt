@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://www.neotechai.com/sitemap.xml
+Sitemap: https://www.asotiatiarua.com/sitemap.xml
