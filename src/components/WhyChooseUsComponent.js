@@ -1,3 +1,21 @@
+"use client";
+
+import dynamic from "next/dynamic";
+import landing_infor from "@/data/landing.json";
+
+const Swiper = dynamic(
+  () => import("swiper/react").then((mod) => mod.Swiper),
+  { ssr: false }
+);
+
+const SwiperSlide = dynamic(
+  () => import("swiper/react").then((mod) => mod.SwiperSlide),
+  { ssr: false }
+);
+
+import "swiper/css";
+import { Autoplay, FreeMode } from "swiper/modules";
+
 const WhyChooseUsComponent = () => {
   return (
     <section id="investor">
@@ -7,7 +25,6 @@ const WhyChooseUsComponent = () => {
         </div>
 
         <Swiper
-          className="neoh_fn_services"
           modules={[Autoplay, FreeMode]}
           slidesPerView="auto"
           spaceBetween={40}
@@ -39,7 +56,6 @@ const WhyChooseUsComponent = () => {
                 alt="avatar"
                 style={{
                   maxWidth: "100%",
-                  maxHeight: "100%",
                   objectFit: "contain",
                 }}
               />
