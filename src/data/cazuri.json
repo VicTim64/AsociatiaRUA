@@ -6,13 +6,13 @@
       "Familia ei se confruntă cu dificultăți materiale majore."
     ],
     "poze": [
-      { "src": "/img/cazuri/maria1.jpg", "position": "left" },
-      { "src": "/img/cazuri/maria2.jpg", "position": "right" }
+      { "src": "/img/cazuri/2.png", "position": "left" },
+      { "src": "/img/cazuri/2.png", "position": "right" }
     ],
     "slider": [
-      "/img/cazuri/slider/maria1.jpg",
-      "/img/cazuri/slider/maria2.jpg",
-      "/img/cazuri/slider/maria3.jpg"
+      "/img/cazuri/slider/2.png",
+      "/img/cazuri/slider/2.png",
+      "/img/cazuri/slider/2.png"
     ]
   },
   {
@@ -22,13 +22,13 @@
       "Se luptă cu condiții precare și lipsa utilităților."
     ],
     "poze": [
-      { "src": "/img/cazuri/ion1.jpg", "position": "left" },
-      { "src": "/img/cazuri/ion2.jpg", "position": "right" }
+      { "src": "/img/cazuri/6.png", "position": "left" },
+      { "src": "/img/cazuri/6.png", "position": "right" }
     ],
     "slider": [
-      "/img/cazuri/slider/ion1.jpg",
-      "/img/cazuri/slider/ion2.jpg",
-      "/img/cazuri/slider/ion3.jpg"
+      "/img/cazuri/slider/6.png",
+      "/img/cazuri/slider/6.png",
+      "/img/cazuri/slider/6.png"
     ]
   },
   {
@@ -38,13 +38,13 @@
       "Intervenim pentru a asigura tratamentele necesare și consiliere."
     ],
     "poze": [
-      { "src": "/img/cazuri/ana1.jpg", "position": "left" },
-      { "src": "/img/cazuri/ana2.jpg", "position": "right" }
+      { "src": "/img/cazuri/8.png", "position": "left" },
+      { "src": "/img/cazuri/8.png", "position": "right" }
     ],
     "slider": [
-      "/img/cazuri/slider/ana1.jpg",
-      "/img/cazuri/slider/ana2.jpg",
-      "/img/cazuri/slider/ana3.jpg"
+      "/img/cazuri/slider/8.png",
+      "/img/cazuri/slider/8.png",
+      "/img/cazuri/slider/8.png"
     ]
   }
 ]
