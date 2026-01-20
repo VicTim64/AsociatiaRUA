@@ -17,20 +17,20 @@ const Index = () => {
   const containerRef = useRef(null);
   const timerRef = useRef(null);
 
-  const categories = {
-    Prevenție: 
-      "Identificarea și monitorizarea timpurie a familiilor și persoanelor vulnerabile",
-    "Acces":
-      "Creșterea accesului la servicii esențiale",
-    Educație:
-      "Reducerea abandonului școlar și creșterea participării educaționale",
-    Trai:
-      "Îmbunătățirea condițiilor minime de trai",
-    Comunitate:
-      "Activarea comunităților prin voluntariat și responsabilizare",
-    Parteneriat:
-       "Consolidarea colaborării între autorități, ONG-uri și mediul privat"
-  };
+ const categories = {
+  Prevention:
+    "Early identification and monitoring of vulnerable families and individuals",
+  "Access":
+    "Improving access to essential services",
+  Education:
+    "Reducing school dropout rates and increasing educational participation",
+  Living:
+    "Improving minimum living conditions",
+  Community:
+    "Activating communities through volunteering and shared responsibility",
+  Partnership:
+    "Strengthening collaboration between authorities, NGOs, and the private sector"
+};;
 
   useEffect(() => {
     // Simulate a loading delay
@@ -168,7 +168,7 @@ const Index = () => {
                      */}
                   </h2>
                  <p className="fn_desc ">
-  Construim punți între oameni, servicii și comunități vulnerabile în județul Mureș.
+  We build bridges between people, services, and vulnerable communities in Mureș County.
 </p>
 
  <br />
@@ -176,7 +176,7 @@ const Index = () => {
                        
                     
                   
-                  <p><b>  #AlegeSăNuFiSingur #ÎnSlujbaBinelui </b> <br /></p>
+                  <p><b>  #ChooseNotToBeAlone #InServiceOfGood </b> <br /></p>
 
                   <div className="home_logo">
                     <div style={wrapperStyle}>
